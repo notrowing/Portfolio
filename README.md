@@ -1,9 +1,11 @@
 # My Portfolio
 
 ### 주요 기능
-1. 하늘 사진을 이용하여 사진의 구름 분포도와 태양의 밝기 정도를 이용하여 태양광 발전량을 예측하는 모델을 학습
-2. 사용자가 웹에 사진을 업로드 하면 이 사진을 이용하여 태양광 에너지 생산량을 예측 
-3. 예측된 대략적인 태양광 에너지 생산량을 사용자에게 제공
+1. ABOUT ME : 자기소개
+2. SKILL : 보유기술
+3. PROJECT : 팀 프로젝트 나열
+4. CHANNEL : 티스토리, 깃헙 
+5. CONTACT : 문의하기(EmailJS 사용) 및 이메일주소 안내
 
 💻**프로그래밍 언어**
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
