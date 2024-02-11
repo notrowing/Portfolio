@@ -1,0 +1,41 @@
+#aboutme{
+    background-color: aliceblue;
+    height: 100%;
+}
+
+.aboutMe_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#profileBox{
+
+}
+#profileBox>h1{
+    font-size: 50px;
+    background: linear-gradient(to top, #F8CACc 50%, transparent 50%);
+}
+
+.profileImg{
+    border-radius: 5px;
+    width: 410px;
+    height: 530px;
+}
+
+#profileTable{
+    margin-left: 200px;
+    
+}
+#profileTable>table>tr>td{
+    /* border-bottom: solid burlywood 1px; */
+}
+#profileTable>table>tr>td:nth-child(1){
+    font-size: 25px;
+}
+#profileTable>table>tr>td{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}

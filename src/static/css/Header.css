@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+
+.Header{
+  border-bottom: solid 1px black;
+}
+
+.HeadSection>h2{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 40px;
+}
+
+.HeadSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+
+.headMenu{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.MenuItem{
+    margin: 0px 32px;
+    list-style: none;
+    
+}
+
+.menu-item{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.menu-item:hover {
+    color: white;
+    background-color: #93A9D1;
+  }

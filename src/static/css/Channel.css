@@ -1,0 +1,26 @@
+
+.channel_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.channel_section>h1{
+    text-align: left;
+    width: 1250px;
+    font-size: 50px;
+}
+.Channel>a>button{
+    font-size: 20px;
+}
+.ChannelBtn{
+   
+    width: 150px;
+    border-radius: 5px;
+   
+    border: none;
+}
+.Channel_icon{
+    width: 30px;
+}
