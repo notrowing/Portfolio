@@ -1,3 +1,12 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#contact{
+    height: 100%;
+    background-color: aliceblue;
+}
 .contact_section{
     display: flex;
     flex-direction: column;
@@ -6,44 +15,11 @@
     height: 100%;
 }
 .contact_section>h1{
-    text-align: right;
-    width: 1250px;
-    font-size: 50px;
-}
-#linkContact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 90px;
+    margin: 0px;
     
-}
-#linkContact>a{
-    text-decoration-line:none;
-}
-
-.contactBtn{
-   
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    border: solid 2px #93A9D1;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    
-}
-.contactBtn:hover{
-    background-color: #93A9D1;
-    color: white;
-}
-.contactBtn>span{
-    margin-left: 20px;
-    font-size: 20px;
-}
-
-.contact_icon{
-    width: 30px;
+    background: linear-gradient(to top, #F8CACc 30%, transparent 30%);
 }

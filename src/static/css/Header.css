@@ -2,7 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
 .Header{
-  border-bottom: solid 1px black;
+  
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  height: 100px;
+  z-index: 100;
 }
 
 .HeadSection>h2{
@@ -16,35 +21,7 @@
     justify-content: space-around;
     align-items: center;
     height: 100px;
-
-}
-
-.headMenu{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.MenuItem{
-    margin: 0px 32px;
-    list-style: none;
+    background-color: rgba(255,255,255,0.5);
     
-}
 
-.menu-item{
-    font-size: 20px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 20px;
-    
 }
-
-.menu-item:hover {
-    color: white;
-    background-color: #93A9D1;
-  }

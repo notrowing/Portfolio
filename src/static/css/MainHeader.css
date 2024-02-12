@@ -6,20 +6,22 @@
 }
 .mainTitleBox{
     width: 1500px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin: 30px auto;
-   border: #171c8f solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+   
 }
 .mainImgBox{
     margin: 30px auto;
 }
+
 .mainImg{
     width: 475px;
     height: 602px;
     border-radius: 5px;
 }
+
 .mainTitle{
     list-style-type: none;
    

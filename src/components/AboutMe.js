@@ -1,18 +1,16 @@
-import '../static/css/AboutMe.css'
+import '../static/css/AboutMe.css';
+import { Link } from 'react-scroll';
 
 const AboutMe = () => {
-
     return (
         <article id="aboutme">
-            
             <section className='aboutMe_box'>
                 <div id="profileBox">
                     <h1>About me</h1>
                     <div className='profile'>
-                        <img src="images/profile.jpg" className='profileImg'/>
+                        <img src="images/profile6.jpg" className='profileImg' alt="Profile" />
                     </div>
                 </div>
-
                 <div id="profileTable">
                     <table>
                         <tr>
@@ -36,9 +34,9 @@ const AboutMe = () => {
                             <td>2023.08~2023.02 한국전력공사 KEPCO Digital Boot Camp 수료 </td>
                         </tr>
                     </table>
-                </div> 
+                </div>
             </section>
-            
+     
         </article>
     );
 };
