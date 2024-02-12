@@ -32,6 +32,7 @@ export default App;
 const Container = styled.div`
   position: relative;
 `;
+
 const Button = styled(FaRegArrowAltCircleUp)`
   position: fixed;
   bottom: 20px;

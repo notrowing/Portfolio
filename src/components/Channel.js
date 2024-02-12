@@ -23,7 +23,7 @@ const Channel = () => {
                         <Link to={"https://github.com/notrowing"} target='_black'>
                             <button className='channelBtn'>
                                 <img className="channel_icon" src = "https://t1.daumcdn.net/cfile/tistory/9929C8455FEADCE219"/>
-                                <span>TISTORY 바로가기</span>
+                                <span>Tistory 바로가기</span>
                             </button>
                         </Link>
                     </div>
