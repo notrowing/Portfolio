@@ -4,6 +4,7 @@ const Skill = () => {
 
     return (
         <article id="skill">
+           
             <section className='skill_Section'>
                 <h1>저는 이런 스킬을 사용할 수 있습니다!</h1>
 

@@ -3,6 +3,19 @@ body{
     overflow-y: auto;
 }
 
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #F8CACc;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+  }
+
 #contact{
     height: 100%;
     background-color: aliceblue;

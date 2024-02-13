@@ -1,19 +1,37 @@
-import React from 'react';
-import '../static/css/Project.css'
-import Pageable from './Pageable';
+import React, { useState } from 'react';
+import '../static/css/Project.css';
 import ProjectPage1 from './ProjectPage1';
 import ProjectPage2 from './ProjectPage2';
 import ProjectPage3 from './ProjectPage3';
+import ProjectPage4 from './ProjectPage4';
 const Project = () => {
+    const [currentPage, setCurrentPage] = useState(1);
+
+    const goToNextPage = () => {
+        setCurrentPage(current => current === 4 ? 1 : current + 1);
+    };
+    
+    const goToPreviousPage = () => {
+        setCurrentPage(current => current === 1 ? 4 : current - 1);
+    };
 
     return (
         <article id="project">
-            프로젝트 페이지 임시 문장
-            <Pageable>
-                <ProjectPage1/>
-                <ProjectPage2/>
-                <ProjectPage3/>
-            </Pageable>
+          
+            <section className='pageSection'>
+                <div className="content">
+                    {currentPage === 1 && <ProjectPage1 />}
+                    {currentPage === 2 && <ProjectPage2 />}
+                    {currentPage === 3 && <ProjectPage3 />}
+                    {currentPage === 4 && <ProjectPage4 />}
+                </div>
+                
+                <div className="buttons">
+                    <button className="prev" onClick={goToPreviousPage}>이전</button>
+                    <button className="next" onClick={goToNextPage}>다음</button>
+                </div>
+            </section>
+
         </article>
     );
 };
