@@ -83,7 +83,7 @@ const StyledLink = styled(Link)`
     color: #333;
     padding: 10px;
     border-radius: 20px;
-
+    cursor: pointer;
     &:hover {
         color: white;
         background-color: #93A9D1;

@@ -10,7 +10,6 @@ const Main = () => {
         <article className='main'>
             
             <Container>
-              
                 <Content />
             </Container>
 
