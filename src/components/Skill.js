@@ -1,4 +1,5 @@
 import '../static/css/Skill.css'
+import { Link } from 'react-scroll';
 
 const Skill = () => {
 
@@ -12,32 +13,29 @@ const Skill = () => {
                     <div className='skillBox'>
                         <h3>Back-End</h3>
                         <ul className='skillList'>
-                            <li>C</li>
-                            <li>python</li>
-                            <li>Java</li>
-                            <li>Spring Boot</li>
-                            <li>Mybatis</li>
-                            <li>RESTful API</li>
+                            <li><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/></li>
                         </ul>
                     </div>
 
                     <div className='skillBox'>
                         <h3>Front-End</h3>
                         <ul className='skillList'>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>REACT</li>
-                            <li>JavaScript</li>
+                            <li><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"/></li>
+                            <li><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/></li>
                         </ul>
                     </div>
 
                     <div className='skillBox'>
                         <h3>DB</h3>
                         <ul className='skillList'>
-                            <li>Oracle</li>
-                            <li>MySQL</li>
-                            <li>MariaDB</li>
-                            <li>REACT</li>
+                            <li><img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white"/></li>
+                            <li><img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white"/></li>
                         </ul>
                     </div>
 
@@ -68,8 +66,9 @@ const Skill = () => {
                         </ul>
                     </div>
 
-                  
-
+                </div>
+                <div className="Skill-scroll-downs">
+                        <Link to = "project" smooth={true} duration={500}><span></span></Link>
                 </div>
             </section>
         </article>

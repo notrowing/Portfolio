@@ -20,28 +20,31 @@ const Header = () => {
     }, [prevScrollPos, visible]);
 
     return (
-        <StyledHeader className={!visible ? 'hide' : ''}>
-            <StyledSection>
-                <h2>CHO JEONG A</h2>
-                <Menu className='headMenu'>
-                    <MenuItem>
-                        <StyledLink to="aboutme" smooth={true} duration={500} className="menu-item">ABOUT ME</StyledLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <StyledLink to="skill" smooth={true} duration={500} className="menu-item">SKILL</StyledLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <StyledLink to="project" smooth={true} duration={500} className="menu-item">PROJECT</StyledLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <StyledLink to="channel" smooth={true} duration={500} className="menu-item">CHANNEL</StyledLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <StyledLink to="contact" smooth={true} duration={500} className="menu-item">CONTACT</StyledLink>
-                    </MenuItem>
-                </Menu>
-            </StyledSection>
-        </StyledHeader>
+        <article className='Header'>
+            <StyledHeader className={!visible ? 'hide' : ''}>
+                <StyledSection>
+                    <h2>CHO JEONG A</h2>
+                    <Menu className='headMenu'>
+                        <MenuItem>
+                            <StyledLink to="aboutme" smooth={true} duration={500} className="menu-item">ABOUT ME</StyledLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <StyledLink to="skill" smooth={true} duration={500} className="menu-item">SKILL</StyledLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <StyledLink to="project" smooth={true} duration={500} className="menu-item">PROJECT</StyledLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <StyledLink to="channel" smooth={true} duration={500} className="menu-item">CHANNEL</StyledLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <StyledLink to="contact" smooth={true} duration={500} className="menu-item">CONTACT</StyledLink>
+                        </MenuItem>
+                    </Menu>
+                </StyledSection>
+            </StyledHeader>
+        </article>
+
     );
 };
 
