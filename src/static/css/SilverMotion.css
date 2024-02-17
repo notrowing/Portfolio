@@ -1,20 +1,25 @@
 #SilverMotion{
     height: 100%;
-
+    
 }
 #SilverMotionPage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     height: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 #SilverMotionHead{
+    margin-top: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-bottom: 4vh;
+    /* outline: 1px solid lightgray; */
 }
 
 .HeadTitle{
@@ -27,20 +32,65 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 80vw;
+    
+    /* outline: 1px solid lightgray; */
 }
 
 .ProjectImgBox{
-    margin-left: 3vw;
+    margin-right: 2vw;
 }
-
+.projectLogo{
+    height:6vh;
+}
 .ProjectImg{
     width: 35vw;
     border-radius: 10px;
+    outline: 1px solid lightgray;
+    box-shadow: 0 0 15px lightgray;
 }
 
 #SilverMotionTable{
-    width: 33vw;
-    outline: solid 1px black;
-    border-radius: 10px;
+    
+    /* outline: solid 1px black; */
+    
+    /* background-color: aliceblue; */
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2vw;
+}
+
+#SilverMotionTable>table>tr>td:nth-child(1){
+    padding-right: 2vw;
+    font-weight: 600;
+}
+
+#SilverMotionTable>table>tr>td{
+    /* outline: 1px solid lightgray; */
+}
+
+.smallspan{
+    font-size: 1vw;
+}
+
+.ProjectGitBtn{
+    width: 8vw;
+    border: none;
+    color: #333;
+    border-radius: 20px;
+    background-color: white;
+    outline: 2.5px solid #a6beeb;
+    font-size: 1.2vw;
+    padding: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px lightgray;
+ 
+}
+
+.ProjectGitBtn:hover{
+    color: white;
+    background-color: #a6beeb;
 }

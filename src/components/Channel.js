@@ -1,6 +1,5 @@
 import '../static/css/Channel.css'
 import { Link } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
 
 const Channel = () => {
 
@@ -19,7 +18,7 @@ const Channel = () => {
                             <Link to={"https://github.com/notrowing"} target='_black'>
                                 <button className='channelBtn'>
                                     <img className="channel_icon" src = "https://cdn-icons-png.flaticon.com/256/25/25231.png"/>
-                                    <span>GIT 바로가기</span> 
+                                    <span>Github 바로가기</span> 
                                 </button>
                             </Link>
 

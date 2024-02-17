@@ -2,6 +2,10 @@ import '../static/css/SilverMotion.css'
 
 const SilverMotion = () => {
 
+    function SilverMotionBtn(){
+        window.open("https://github.com/20153306Kimgunwoo/silver-car-community");
+    }
+
     return (
         <article id = "SilverMotion">
           <section id="SilverMotionPage">
@@ -11,6 +15,9 @@ const SilverMotion = () => {
             </div>
 
             <div id = "SilverMotionDetail">
+                <div className="ProjectImgBox">
+                    <img src="images/SilverMotionImg.png" className='ProjectImg' />
+                </div>
 
                 <div id = "SilverMotionTable">
                     <table>
@@ -38,10 +45,10 @@ const SilverMotion = () => {
                             <td></td>
                             <td>모델페이지: 차량 제원, 차량구매링크, css</td>
                         </tr>
-                    </table>
-
-                    <div>개발 환경</div>
-                    <table>
+                    
+                        <tr>
+                            <td>개발 환경</td>
+                        </tr>
                         <tr>
                             <td>언어</td>
                             <td>Python, Javam HTML,CSS, JavaScript</td>
@@ -60,12 +67,10 @@ const SilverMotion = () => {
                         </tr>
                     </table>
 
-                    <button>사이트 바로가기</button>
+                    <button onClick={SilverMotionBtn} className='ProjectGitBtn'>Github</button>
                 </div>
 
-                <div className="ProjectImgBox">
-                    <img src="images/SilverMotionImg.png" className='ProjectImg' />
-                </div>
+               
             </div>
           </section>
         </article>

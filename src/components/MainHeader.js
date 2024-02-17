@@ -16,8 +16,7 @@ const MainHeader = () => {
                         <li>Full-Stack Portfolio</li>
                     </ul>
                 </div>
-
-            
+                
         </article>
     );
 };
