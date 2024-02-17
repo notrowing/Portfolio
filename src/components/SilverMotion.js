@@ -9,33 +9,63 @@ const SilverMotion = () => {
                 <img src="images/SilverMotionLogo.png" className='projectLogo'/>
                 <div className='HeadTitle'>| 노약자 대상 전동차 커뮤니티 사이트</div>
             </div>
-            <div>
-                <table>
-                    <tr>
-                        <td>개발기간</td>
-                        <td>2023.12.05~2023.12.09</td>
-                    </tr>
-                    <tr>
-                        <td>플랫폼</td>
-                        <td>Web</td>
-                    </tr>
-                    <tr>
-                        <td>개발인원</td>
-                        <td>4명</td>
-                    </tr>
-                    <tr>
-                        <td>담당역할</td>
-                        <td>지역별 보조금 정보 크롤링</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>메인페이지 : 차량 검색</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>모델페이지: 차량 제원, 차량구매링크, css</td>
-                    </tr>
-                </table>
+
+            <div id = "SilverMotionDetail">
+
+                <div id = "SilverMotionTable">
+                    <table>
+                        <tr>
+                            <td>개발기간</td>
+                            <td>2023.12.05~2023.12.09</td>
+                        </tr>
+                        <tr>
+                            <td>플랫폼</td>
+                            <td>Web</td>
+                        </tr>
+                        <tr>
+                            <td>개발인원</td>
+                            <td>4명</td>
+                        </tr>
+                        <tr>
+                            <td>담당역할</td>
+                            <td>지역별 보조금 정보 크롤링</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>메인페이지 : 차량 검색</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>모델페이지: 차량 제원, 차량구매링크, css</td>
+                        </tr>
+                    </table>
+
+                    <div>개발 환경</div>
+                    <table>
+                        <tr>
+                            <td>언어</td>
+                            <td>Python, Javam HTML,CSS, JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>프레임워크</td>
+                            <td>Spring Boot, React</td>
+                        </tr>
+                        <tr>
+                            <td>DB</td>
+                            <td>MariaDB</td>
+                        </tr>
+                        <tr>
+                            <td>IDE</td>
+                            <td>HeidiSQL</td>
+                        </tr>
+                    </table>
+
+                    <button>사이트 바로가기</button>
+                </div>
+
+                <div className="ProjectImgBox">
+                    <img src="images/SilverMotionImg.png" className='ProjectImg' />
+                </div>
             </div>
           </section>
         </article>

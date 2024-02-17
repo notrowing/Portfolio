@@ -62,10 +62,6 @@ const AboutMe = () => {
                     </div>
 
                 </section>
-
-                {/* <div className="scroll-downs">
-                    <Link to = "skill" smooth={true} duration={500}><span></span></Link>
-                </div> */}
             </div>
         </article>
     );
