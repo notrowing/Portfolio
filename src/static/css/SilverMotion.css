@@ -1,0 +1,23 @@
+#SilverMotion{
+    height: 100%;
+
+}
+#SilverMotionPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+#SilverMotionHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeadTitle{
+    font-size: 1.5vw;
+    font-weight: bold;
+}

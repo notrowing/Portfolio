@@ -19,7 +19,7 @@ body{
 #contact{
     height: 100vh;
     background-color: aliceblue;
-    outline: solid #333 2px;
+    /* outline: solid #333 2px; */
 }
 .contact_section{
     display: flex;

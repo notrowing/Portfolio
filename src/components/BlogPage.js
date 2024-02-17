@@ -4,7 +4,9 @@ const BlogPage = () => {
 
     return (
         <article id = "BlogPage">
-          BlogPage
+          <section>
+            BlogPage
+          </section>
         </article>
     );
 };

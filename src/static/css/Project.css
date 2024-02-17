@@ -28,6 +28,7 @@
     justify-content: flex-end;
     width: 90vw;
     align-items: flex-end;
+    border-radius: 10px;
 }
 .pHeaderBtn{
     font-size: 1.5vw;
@@ -41,6 +42,7 @@
     font-size: 1.5vw;
     margin-left: 3vw;
 }
+
 #projectItem{
     background-color: white;
     width:  100vw;
