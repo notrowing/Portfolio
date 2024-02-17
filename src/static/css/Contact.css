@@ -17,22 +17,22 @@ body{
   }
 
 #contact{
-    height: 100%;
+    height: 100vh;
     background-color: aliceblue;
+    outline: solid #333 2px;
 }
 .contact_section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
 }
 .contact_section>h1{
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
-    font-size: 90px;
+    font-size: 7vw;
     margin: 0px;
-    
     background: linear-gradient(to top, #F8CACc 30%, transparent 30%);
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
+import '../static/css/Header.css';
 
 const Header = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -23,7 +24,7 @@ const Header = () => {
         <article className='Header'>
             <StyledHeader className={!visible ? 'hide' : ''}>
                 <StyledSection>
-                    <h2>CHO JEONG A</h2>
+                    <div className='headTitle'>CHO JEONG A</div>
                     <Menu className='headMenu'>
                         <MenuItem>
                             <StyledLink to="aboutme" smooth={true} duration={500} className="menu-item">ABOUT ME</StyledLink>
@@ -50,7 +51,7 @@ const Header = () => {
 
 const StyledHeader = styled.article`
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     height: 100px;
     z-index: 100;
@@ -80,16 +81,15 @@ const MenuItem = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 500;
     text-decoration: none;
     color: #333;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 10px;
     cursor: pointer;
     &:hover {
-        color: white;
-        background-color: #93A9D1;
+        color: navy;
     }
 `;
 

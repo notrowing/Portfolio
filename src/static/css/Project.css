@@ -1,83 +1,84 @@
 #project{
-    height: 100vh;
-    background-color: aliceblue;
-    
+    outline: solid #333 2px;
+    background-color: gray;
 }
-
-.projectPage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-}
-
-.pageSection{
-    position: relative;
-    width:  100vw;
-    height: 100vh;
-    /* border: solid 1px gray; */
-}
-
-.prev {
-    position: absolute;
-    top: 50%;
-    left: 10px; 
-    transform: translateY(-50%);
-    border: none;
-    border-radius: 20px;
-    background-color: #767676;
-    color: white;
-}
-
-.next {
-    position: absolute;
-    top: 50%;
-    right: 10px; 
-    transform: translateY(-50%);
-    border: none;
-    border-radius: 20px;
-}
-
-.ProjectImg{
-    background-color: white;
-    padding: 25px;
-    position: relative;
-    border-radius: 20px;
-}
-.PageImg{
-    border-radius: 5px;
-    /* width: 250px; */
-   width: 800px;
-}
-
-
-.project-scroll-downs{
+#projectPage{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    width:  100vw;
+    background-color: aliceblue;
+    position: relative;
+}
+#projectTitle{
+    position:absolute;
+    font-size: 4vw;
+    top: 5vh;
+    left: 8vw;
+    
+}
+#projectHeader>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90vw;
+    align-items: flex-end;
+}
+.pHeaderBtn{
+    font-size: 1.5vw;
+    margin-left: 3vw;
     cursor: pointer;
-   
+    position: relative;
+    padding-bottom: 10px;
 }
-.project-scroll-downs > a {
-    padding-top: 30px;
-    padding-bottom: 20px;
+#projectHeader>ul>li:hover{
+    
+    font-size: 1.5vw;
+    margin-left: 3vw;
+}
+#projectItem{
+    background-color: white;
+    width:  100vw;
+    height: 85vh;
 }
 
-.project-scroll-downs a span{
+  .pHeaderBtn:before {
+    content: "";
     position: absolute;
-    top: 90vh;
-    width: 24px;
-    height: 24px;
-    border-left: 1px solid #333;
-    border-bottom: 1px solid #333;
-    transform: rotate(-45deg);
-    animation: sdb04 2s infinite;
-    box-sizing: border-box;
-}
-
-
-@keyframes sdb04 {
-    0% {transform: rotate(-45deg) translate(0, 0);}
-    20% {transform: rotate(-45deg) translate(-10px, 10px);}
-    40% {transform: rotate(-45deg) translate(0, 0);}
-}
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: navy;
+  }
+  .pHeaderBtn:before {
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-transition: opacity 0s,
+      -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: opacity 0s,
+      -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s,
+      -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+   
+  .pHeaderBtn:hover:before {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: opacity 0.2s,
+      -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: opacity 0.2s,
+      -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+      opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+      opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }  

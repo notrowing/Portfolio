@@ -1,6 +1,8 @@
 
 #channel{
     height: 100vh;
+    width:  100vw;
+    outline: solid #333 2px;
 }
 .chnnelPage{
     display: flex;
@@ -84,12 +86,15 @@
 }
 
 .channelProfile{
-    background-color: #bbdcfb;
-    padding: 50px;
+    background-color: lightgoldenrodyellow;
+   
+    padding: 3vw;
+    border-radius: 5px;
     
 }
 .channelImg{
-    width: 800px;
+    width: 45vw;
+    border-radius: 5px;
 }
 
 .Channel-scroll-downs{

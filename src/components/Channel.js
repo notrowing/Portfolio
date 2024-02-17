@@ -40,9 +40,9 @@ const Channel = () => {
                     </div>
                 </section>
 
-                <div className="Channel-scroll-downs">
+                {/* <div className="Channel-scroll-downs">
                     <ScrollLink  to="contact" smooth={true} duration={500}><span></span></ScrollLink >
-                </div>
+                </div> */}
             </section>
         </article>
     );

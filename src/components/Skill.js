@@ -9,8 +9,8 @@ const Skill = () => {
             <section className='skill_Section'>
                 <h1>저는 이런 스킬을 사용할 수 있습니다!</h1>
 
-                <div className='skillInfo'>
-                    <div className='skillBox'>
+                <div className='skillInfo1'>
+                    <div className='skillBox1'>
                         <h3>Back-End</h3>
                         <ul className='skillList'>
                             <li><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></li>
@@ -19,7 +19,7 @@ const Skill = () => {
                         </ul>
                     </div>
 
-                    <div className='skillBox'>
+                    <div className='skillBox1'>
                         <h3>Front-End</h3>
                         <ul className='skillList'>
                             <li><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></li>
@@ -29,7 +29,7 @@ const Skill = () => {
                         </ul>
                     </div>
 
-                    <div className='skillBox'>
+                    <div className='skillBox1'>
                         <h3>DB</h3>
                         <ul className='skillList'>
                             <li><img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/></li>
@@ -42,8 +42,8 @@ const Skill = () => {
                 </div>
 
                 <h1>또한 이러한 도구들도 사용 할 수 있습니다.</h1>
-                <div className='skillInfo'>
-                    <div className='skillBox'>
+                <div className='skillInfo2'>
+                    <div className='skillBox2'>
                         <h3>Tools</h3>
                         <ul className='skillList2'>
                             <li><img className='skillIcon' src='https://i.namu.wiki/i/9oRmigUE97GJmrGXu0PwIzbLTv1WeMXfllr6tsgJtarFa-YNq7o6UGlGyq5h1cCB4T1zFt8CQZWU_mJKHsCi1A.webp'/></li>
@@ -54,7 +54,7 @@ const Skill = () => {
                         </ul>
                     </div>
 
-                    <div className='skillBox'>
+                    <div className='skillBox2'>
                         <h3>Collaboration&Design&Document</h3>
                         <ul className='skillList2'>
                             <li><img className='skillIcon' src='https://cdn-icons-png.flaticon.com/512/25/25231.png'/></li>
@@ -67,9 +67,9 @@ const Skill = () => {
                     </div>
 
                 </div>
-                <div className="Skill-scroll-downs">
+                {/* <div className="Skill-scroll-downs">
                         <Link to = "project" smooth={true} duration={500}><span></span></Link>
-                </div>
+                </div> */}
             </section>
         </article>
     );

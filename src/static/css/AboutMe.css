@@ -1,9 +1,10 @@
 #aboutme{
-    background-color: aliceblue;
+    
     height: 100vh;
     position: relative; 
-    /* border: #333 solid 1px; */
     
+    width:100vw;
+    outline: solid #333 2px;
 }
 .aboutMePage{
     display: flex;
@@ -19,48 +20,54 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-    
 }
 .profile{
    
 }
 #profileBox{
-    background-color: white;
-    padding: 25px;
+    background-color: #bbdcfb73;
+    padding: 20px;
     position: relative;
     border-radius: 20px;
 }
 #profileBox>h1{
     margin: 10px 0 20px 0;
-    font-size: 80px;
+    font-size: 3vw;
     background: linear-gradient(to top, #F8CACc 30%, transparent 30%);
     position: absolute;
-    top: -100px;
+    top: -6vh;
     font-weight: 500;
     letter-spacing: 1px;
+    
 }
 
 .profileImg{
     border-radius: 5px;
     /* width: 250px; */
-   width: 600px;
+    width: 35vw;
 }
 
 #profileTable{
-    margin-left: 200px;
-    
+    margin-left: 5vw;
+    width: 35vw;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
 }
 #profileTable>table>tr>td{
     /* border-bottom: solid burlywood 1px; */
 }
+
+#profileTable>table>tr>td>span{
+    font-size: 14px;
+}
 #profileTable>table>tr>td:nth-child(1){
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 550;
 }
 #profileTable>table>tr>td{
-    padding: 10px;
-    font-size: 22px;
-    font-weight: bold;
+    padding: 5px;
+    font-size: 16px;
 }
 
 .scroll-downs{

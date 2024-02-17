@@ -95,6 +95,77 @@ const Inquiry = () => {
         }));
     };
 
+    const handleBlur = (e) => {
+        console.log(e.target.value);
+        console.log(e.target.id);
+
+        const maxLength = e.target.maxLength;
+        
+        if (e.target.id === 'inputNumber1') {
+        
+            if (!/^\d+$/.test(e.target.value)) {
+                e.target.value = '';
+                alert("숫자만 입력이 가능합니다.");
+                return;
+            }
+            if (e.target.value.length < maxLength) {
+                e.target.value = ''; 
+                alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
+                return;
+            }
+        }
+        else if (e.target.id === 'inputNumber2') {
+        
+            if (!/^\d+$/.test(e.target.value)) {
+                e.target.value = '';
+                alert("숫자만 입력이 가능합니다.");
+                return;
+            }
+            if (e.target.value.length < maxLength) {
+                e.target.value = ''; 
+                alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
+                return;
+            }
+        }
+        else if (e.target.id === 'inputNumber3') {
+        
+            if (!/^\d+$/.test(e.target.value)) {
+                e.target.value = '';
+                alert("숫자만 입력이 가능합니다.");
+                return;
+            }
+            if (e.target.value.length < maxLength) {
+                e.target.value = ''; 
+                alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
+                return;
+            }
+        }
+
+        if(e.target.id === 'emailDomain'){
+            if (!(/^[a-zA-Z.]+$/).test(e.target.value)){
+                e.target.value = ''; 
+                alert('이메일 도메인 형식을 확인해주세요.')
+                return;
+            }
+        }
+
+        if(e.target.id === 'emailId'){
+            if (!(/^[a-zA-Z0-9]+$/).test(e.target.value)){
+                e.target.value = ''; 
+                alert('이메일 아이디에는 알파벳과 숫자만 입력 가능합니다.');
+                return;
+            }
+        }
+
+        if(e.target.id === 'inputName'){
+            if (!(/^[a-zA-Z가-힣]*$/).test(e.target.value)){
+                e.target.value = ''; 
+                alert('이름에는 특수문자를 입력하실 수 없습니다.');
+                return;
+            }
+        }
+    };
+
   return (
     <article className="InquiryInputPages">
 
@@ -120,6 +191,7 @@ const Inquiry = () => {
                                     onChange={handleChange}
                                     align = "middle"
                                     title="특수문자, 숫자는 입력이 불가능합니다."
+                                    onBlur={handleBlur}
                             />
                         </td>
                     </tr>
@@ -137,6 +209,7 @@ const Inquiry = () => {
                                     required 
                                     title="특수문자는 입력이 불가능합니다."
                                     onChange={handleChange}
+                                    onBlur={handleBlur}
                             />
                             <span>&nbsp;@&nbsp;&nbsp;</span>
                         
@@ -154,6 +227,7 @@ const Inquiry = () => {
                                         InputData.emailDomain==='naver.com'||InputData.emailDomain==='gmail.com'||InputData.emailDomain==='hanmail.net'
                                         ||InputData.emailDomain==='korea.com'||InputData.emailDomain==='nate.com'||InputData.emailDomain==='yahoo.com'
                                     }
+                                    onBlur={handleBlur}
                             />
                 
                             <span>&nbsp;&nbsp;</span>
@@ -185,11 +259,35 @@ const Inquiry = () => {
                             <span className="red_span">*</span>
                         </td>
                         <td colSpan="3">
-                            <input type='tel'  pattern="[0-9]*" id = "inputNumber1" maxLength="3" placeholder='010' required onChange={handleChange}/>
+                            <input type='tel'  
+                                pattern="[0-9]*" 
+                                id = "inputNumber1" 
+                                maxLength="3" 
+                                placeholder='010' 
+                                required 
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                            />
                             <span>&nbsp;-&nbsp;&nbsp;</span>
-                            <input type='tel'  pattern="[0-9]*" id = "inputNumber2" maxLength="4" placeholder='1234' required onChange={handleChange}/>
+                            <input type='tel'  
+                                pattern="[0-9]*" 
+                                id = "inputNumber2"
+                                maxLength="4" 
+                                placeholder='1234' 
+                                required 
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                            />
                             <span>&nbsp;-&nbsp;&nbsp;</span>
-                            <input type='tel'  pattern="[0-9]*" id = "inputNumber3" maxLength="4" placeholder='5678' required onChange={handleChange}/>
+                            <input type='tel'  
+                                pattern="[0-9]*" 
+                                id = "inputNumber3" 
+                                maxLength="4" 
+                                placeholder='5678' 
+                                required 
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                            />
                         </td>
                     </tr>
 

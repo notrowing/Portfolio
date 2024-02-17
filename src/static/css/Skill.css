@@ -1,6 +1,7 @@
 #skill{
     height: 100vh;
-    border: solid #333 2px;
+    width:  100vw;
+    /* outline: solid #333 2px; */
 }
 
 .skill_Section{
@@ -10,28 +11,63 @@
     align-items: center; 
     height: 100vh;
     position: relative;
+    background-color: aliceblue;
     
 }
 
 .skill_Section>h1{
-    font-size: 50px; border: 1px saddlebrown solid;
+    font-size: 2vw; 
+    margin: 20px;
+    /* border: 1px saddlebrown solid; */
 }
 
-.skillInfo{
+.skillInfo1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 70vw;
-    border: 1px saddlebrown solid;
+    width: 45vw;
+    box-shadow: 0 0 20px lightgray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px saddlebrown solid; */
 }
 
-.skillBox{
+
+.skillInfo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 55vw;
+    border-radius: 10px;
+    /* border: 1px saddlebrown solid; */
+}
+
+.skillBox1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.skillBox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px lightgray;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.skillBox>h3{
+    margin: 10px 0;
+}
+
 .skillList{
     list-style: none;
     padding-left: 0;
@@ -40,7 +76,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
 }
+
 .skillList2{
     list-style: none;
     padding-left: 0;
@@ -49,6 +87,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
 }
 
 .skillBox>h3{
@@ -57,11 +96,13 @@
 .skillList>li{
     font-weight: bold;
     padding-left: 10px;
+
 }
 .skillList2>li{
     font-weight: bold;
-    padding-left: 20px;
+    padding: 0 10px;
 }
+
 .skillIcon{
     width: 50px;
     height: 50px;

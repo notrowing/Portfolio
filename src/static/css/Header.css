@@ -1,18 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
-.Header{
-  
-  position: fixed;
-  width: 100vw;
-  top: 0; 
-  height: 100px;
-  z-index: 100;
-}
 
-.HeadSection>h2{
-    font-family: "Protest Riot", sans-serif;
-    font-size: 40px;
+
+.headTitle{
+    /* font-family: "Protest Riot", sans-serif; */
+   font-size: 1.8vw;
+   font-weight: 600;
 }
 
 .HeadSection{
