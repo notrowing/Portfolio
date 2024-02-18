@@ -6,15 +6,21 @@
     height: 100vh;
     width: 100vw;
     /* outline: solid 1px black; */
-    background-color: #D5E8FD;
+    /* background-color: #D5E8FD; */
     position: relative;
+    background-color: white;
+    background-image: linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73),
+    linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
 }
 .mainTitleBox{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 30px auto;
-    
+    align-items: center;
+    /* outline: solid 1px black; */
 }
 .mainImgBox{
     margin: 30px auto;
@@ -32,7 +38,7 @@
 }
 
 .mainTitle>li{
-    font-size: 20vh;
+    font-size: 15vh;
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -60,6 +66,7 @@
     top:75vh;
     font-size: 4vw;
     font-family: "Dancing Script", cursive;
+    animation: fadein 3s ease-in-out;
 }
 
 

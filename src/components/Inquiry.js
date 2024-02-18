@@ -77,9 +77,11 @@ const Inquiry = () => {
         .then(
         (result) => {
             console.log('Email sent successfully:', result.text);
+            alert(`문의가 정상적으로 등록되었습니다.`);
         },
         (error) => {
             console.error('Failed to send email:', error.text);
+            alert(`문의 등록이 실패 하였습니다.`);
         }
         );
     };

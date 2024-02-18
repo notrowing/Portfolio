@@ -15,8 +15,8 @@ const MainHeader = () => {
                     </div>
 
                     <ul className="mainTitle">
-                        <li>Full-Stack</li>
-                        <li>Portfolio</li>
+                        <li>Full-Stack Portfolio</li>
+                     
                     </ul>
                     <div id = "mainName">CHO Jeong A</div>
 

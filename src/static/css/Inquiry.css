@@ -100,7 +100,6 @@
     height: 30px;
 }
 
-
 #inquiry_Btn{
     width: 150px;
     height: 40px;
@@ -111,6 +110,7 @@
     font-size: 20px;
     margin-top: 20px;
     box-shadow: 0 0 5px lightgray;
+    cursor: pointer;
 }
 
 #inquiry_Btn:hover{

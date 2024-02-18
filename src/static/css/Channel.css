@@ -5,7 +5,7 @@
     /* outline: solid #333 2px; */
     background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
     radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #c3d6F2;
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #bbdcfb73;
     background-size: 110px 200px;
     background-repeat: repeat-x;
 }
@@ -89,11 +89,9 @@
     font-size: 1.5vw;
 }
 
-
 .channel_right{
     margin-left: 100px;
     position: relative;
-    
 }
 
 .channel_right>h1{
@@ -107,7 +105,7 @@
 
 .channelProfile{
     background-color: lightgoldenrodyellow;
-   
+
     padding: 2vw;
     border-radius: 5px;
     
