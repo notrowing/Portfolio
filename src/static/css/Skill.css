@@ -18,6 +18,20 @@
 .skill_Section>h1{
     font-size: 2vw; 
     margin: 20px;
+    font-family: "Gothic A1", sans-serif;
+}
+
+#skillTitle{
+    top: 0;
+    left: 85vw;
+    position: absolute;
+    color: #82AFE0;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 3vw;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    background-color: white;
+    padding-top: 15vh;
 }
 
 .skillInfo1{
@@ -104,4 +118,5 @@
     width: 50px;
     height: 50px;
 }
+
 

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 #project{
     /* outline:  1px solid black; */
 }
@@ -15,9 +16,16 @@
 
 #projectTitle{
     position:absolute;
-    font-size: 4vw;
-    top: 3vh;
+    font-size: 3.5vw;
+    top: 4.5vh;
     left: 8vw;
+    font-family: "Black Han Sans", sans-serif;
+    color: #82AFE0;
+    text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff; 
     
 }
 #projectHeader>ul{

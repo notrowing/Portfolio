@@ -34,5 +34,12 @@ body{
     letter-spacing: 1px;
     font-size: 10vh;
     margin: 0px;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #82AFE0;
     background: linear-gradient(to top, #F8CACc 30%, transparent 30%);
+    text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
 }

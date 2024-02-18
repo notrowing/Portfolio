@@ -70,6 +70,7 @@ const Skill = () => {
                 {/* <div className="Skill-scroll-downs">
                         <Link to = "project" smooth={true} duration={500}><span></span></Link>
                 </div> */}
+                <div id='skillTitle'>Skill</div>
             </section>
         </article>
     );

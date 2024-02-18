@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 #aboutme{
-    
     height: 100vh;
     position: relative; 
     
@@ -29,8 +31,6 @@
     height: 100vh;
     left: 0;
     background-color: white;
-    
- 
 }
 .profile{
    
@@ -48,8 +48,11 @@
     font-size: 3vw;
     position: absolute;
     top: -6vh;
-    font-weight: 500;
+    /* font-weight: 500; */
     letter-spacing: 1px;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #82AFE0;
+    
 }
 
 .profileImg{

@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Pen+Script&display=swap');
+
 #channel{
     height: 100vh;
     width:  100vw;
@@ -9,6 +11,7 @@
     background-size: 110px 200px;
     background-repeat: repeat-x;
 }
+
 .chnnelPage{
     display: flex;
     flex-direction: column;
@@ -29,7 +32,6 @@
 }
 
 .channel_left{
-    
     border-radius: 5px;
 }
 
@@ -77,16 +79,18 @@
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    height: 35vh;
+    height: 45vh;
 }
 
 #channelTitle{
-    font-size: 1.8vw;
+    font-size:2.5vw;
+    font-family: "Nanum Pen Script", cursive;
     /* font-weight: 600; */
 }
 
 #channelMail{
     font-size: 1.5vw;
+    font-family: "Gothic A1", sans-serif;
 }
 
 .channel_right{
@@ -95,12 +99,18 @@
 }
 
 .channel_right>h1{
-    font-size: 11vh;
+    font-size: 10vh;
     position: absolute;
     z-index: 10;
-    font-weight: 500;
     letter-spacing: 1px;
-    top:-185px;
+    top:-160px;
+    font-family: "Black Han Sans", sans-serif;
+    color: #82AFE0;
+    text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff; 
 }
 
 .channelProfile{
