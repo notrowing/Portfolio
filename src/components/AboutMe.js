@@ -6,8 +6,9 @@ const AboutMe = () => {
         <article id="aboutme">
             <div className='aboutMePage'>
                 <section className='aboutMe_box'>
-
+                    <span id="profileback"></span>
                     <div id="profileBox">
+                       
                         <h1>About me</h1>
                         <div className='profile'>
                             <img src="images/profile6.jpg" className='profileImg' alt="Profile" />

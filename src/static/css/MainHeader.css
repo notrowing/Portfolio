@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 .mainHeader{
     display: flex;
-    
+    height: 100vh;
+    width: 100vw;
+    /* outline: solid 1px black; */
+    background-color: #D5E8FD;
+    position: relative;
 }
 .mainTitleBox{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 30px auto;
-    width: 100vw;
-   
+    
 }
 .mainImgBox{
     margin: 30px auto;
@@ -25,28 +28,68 @@
 
 .mainTitle{
     list-style-type: none;
-   
+    position: relative;
 }
 
 .mainTitle>li{
-    font-size: 150px;
-    font-family: "Lobster", sans-serif;
+    font-size: 20vh;
+    font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: right;
-    animation: fadein 7s ease-in-out;
-    color: #171c8f;
+    text-align: left;
+    animation: fadein 3s ease-in-out;
+    color: #82AFE0;
 
 }
 
 @keyframes fadein{
     0% {
-      opacity: 0;
-      transform: translateY(20px);
+        opacity: 0;
+        transform: translateY(20px);
     }
     100% {
-      opacity: 1;
-      transform: none;
+        opacity: 1;
+        transform: none;
     }
-  
-  }
+}
+
+#mainName{
+    color: #EF9FBD;
+    position: absolute;
+    left: 70vw;
+    top:75vh;
+    font-size: 4vw;
+    font-family: "Dancing Script", cursive;
+}
+
+
+.scroll-downs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scroll-downs > a {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.scroll-downs a span{
+    position: absolute;
+    top: 90vh;
+    width: 24px;
+    height: 24px;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    transform: rotate(-45deg);
+    animation: sdb04 2s infinite;
+    box-sizing: border-box;
+}
+
+
+@keyframes sdb04 {
+    0% {transform: rotate(-45deg) translate(0, 0);}
+    20% {transform: rotate(-45deg) translate(-10px, 10px);}
+    40% {transform: rotate(-45deg) translate(0, 0);}
+}

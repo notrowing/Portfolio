@@ -1,0 +1,14 @@
+
+
+#Footer{
+   
+    /* background-color: lightblue; */
+}
+#FooterPage{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}

@@ -19,27 +19,34 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;width:100vw;
+    height: 100vh;
+    width:100vw;
     /* outline: solid #333 1px; */
+}
+#profileback{
+    position:absolute;
+    width: 30vw;
+    height: 100vh;
+    background-color: white;
+    background-image: linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73),
+    linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    left: 0;
 }
 .profile{
    
 }
 #profileBox{
-   
-    padding: 3vw;
+    padding: 0.5vw;
     position: relative;
     border-radius: 20px;
-    background-color: #eee;
-    background-image: linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73),
-    linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73);
-    background-size: 60px 60px;
-    background-position: 0 0, 30px 30px;
+    background-color: white;
+
 }
 #profileBox>h1{
     margin: 10px 0 20px 0;
-    font-size: 4vw;
-    
+    font-size: 3vw;
     position: absolute;
     top: -6vh;
     font-weight: 500;
@@ -56,7 +63,6 @@
     margin-left: 5vw;
     width: 35vw;
     padding: 10px;
-    
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -74,39 +80,10 @@
 #profileTable>table>tr>td:nth-child(1){
     font-size: 1.4vw;
     font-weight: 550;
+    padding-right: 1.5vw;
 }
 #profileTable>table>tr>td{
     padding: 5px;
     font-size: 1.2vw;
 }
 
-.scroll-downs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-   
-}
-.scroll-downs > a {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.scroll-downs a span{
-    position: absolute;
-    top: 90vh;
-    width: 24px;
-    height: 24px;
-    border-left: 1px solid #333;
-    border-bottom: 1px solid #333;
-    transform: rotate(-45deg);
-    animation: sdb04 2s infinite;
-    box-sizing: border-box;
-}
-
-
-@keyframes sdb04 {
-    0% {transform: rotate(-45deg) translate(0, 0);}
-    20% {transform: rotate(-45deg) translate(-10px, 10px);}
-    40% {transform: rotate(-45deg) translate(0, 0);}
-}

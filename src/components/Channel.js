@@ -9,11 +9,12 @@ const Channel = () => {
                 <section className='channel_section'>
 
                     <div className='channel_left'>
-                        <div>
-                            <h2>"(임시문장)시간이 '나서'가 아니라 <br/>시간을 '내서' <br/>노력 해야 한다. <br/> 열정은 내일에 몰입하는 것이고 <br/> 열광은 남의일에 집중하는 것이다"</h2>
-                            <h3>연락처 : notrowing@naver.com , 010 5357 5610 </h3>
-                        </div>
-
+                        <div id='channelTitle'>프론트와 백엔드를 아우르는 <br/>
+                                                기술을 통해<br/>
+                                                사용자 경험을 개선하고,<br/>
+                                                웹의 품질을 향상시키는 것에 <br/>
+                                                열정을 가지고 있습니다</div>
+                        <div id='channelMail'>연락처 : notrowing@naver.com , 010 5357 5610 </div>
                         <div id = "channelLink">
                             <Link to={"https://github.com/notrowing"} target='_black'>
                                 <button className='channelBtn'>

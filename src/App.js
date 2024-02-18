@@ -4,6 +4,7 @@ import Content from "./components/Content";
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import Header from "./components/Header";
 import MainHeader from "./components/MainHeader";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -18,9 +19,10 @@ function App() {
       <div>
         <Container>
           <Header/>
-          
+          <MainHeader/>
           <Button size="36px" color="#767676" onClick={handleScrollToTop} />
 	        <Content />
+          <Footer/>
         </Container>
 
       </div>
