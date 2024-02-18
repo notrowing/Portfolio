@@ -3,6 +3,11 @@
     height: 100vh;
     width:  100vw;
     /* outline: solid #333 2px; */
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #c3d6F2;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
 }
 .chnnelPage{
     display: flex;
@@ -16,13 +21,14 @@
 .channel_section{
     display: flex;
     flex-direction: row;
-    
+    /* outline: 1px solid black; */
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    margin-top: 20vh;
 }
 
 .channel_left{
-    background-color: white;
+    /* background-color: white; */
     border-radius: 5px;
 }
 
@@ -52,7 +58,7 @@
 }
 .channelBtn:hover{
    
-    background-color: lightgray;
+    background-color: lightgoldenrodyellow;
    
 }
 .channelBtn>span{

@@ -11,14 +11,13 @@
     align-items: center; 
     height: 100vh;
     position: relative;
-    background-color: aliceblue;
+    background-color: #bbdcfb73;
     
 }
 
 .skill_Section>h1{
     font-size: 2vw; 
     margin: 20px;
-    /* border: 1px saddlebrown solid; */
 }
 
 .skillInfo1{
@@ -31,7 +30,6 @@
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    /* border: 1px saddlebrown solid; */
 }
 
 
@@ -42,7 +40,6 @@
     align-items: center;
     width: 55vw;
     border-radius: 10px;
-    /* border: 1px saddlebrown solid; */
 }
 
 .skillBox1{

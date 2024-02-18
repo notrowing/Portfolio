@@ -18,7 +18,7 @@ function App() {
       <div>
         <Container>
           <Header/>
-          <MainHeader/>
+          
           <Button size="36px" color="#767676" onClick={handleScrollToTop} />
 	        <Content />
         </Container>

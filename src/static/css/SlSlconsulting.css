@@ -1,5 +1,89 @@
+
+
 #SlSlconsulting{
-    width:  100vw;
-    height: 85vh;
-    background-color: lightgoldenrodyellow;
+    height: 100%;
+    /* background-color: lightblue; */
+}
+#slslPage{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+#slslHead{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-bottom: 4vh;
+    /* outline: 1px solid lightgray; */
+}
+
+.HeadTitle{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#slslDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80vw;
+    /* outline: 1px solid lightgray; */
+}
+
+.ProjectImgBox{
+    margin-right: 2vw;
+}
+
+#slslImg{
+    width: 35vw;
+    height: 45vh;
+    border-radius: 10px;
+    outline: 1px solid lightgray;
+    box-shadow: 0 0 15px lightgray;
+}
+
+#slslTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2vw;
+   
+}
+
+#slslTable>table>tr>td:nth-child(1){
+    padding-right: 2vw;
+    font-weight: 600;
+}
+
+#slslTable>table>tr>td{
+    /* outline: 1px solid lightgray; */
+}
+
+.ProjectGitBtn{
+    width: 8vw;
+    border: none;
+    color: #333;
+    border-radius: 20px;
+    background-color: white;
+    outline: 2.5px solid #a6beeb;
+    font-size: 1.2vw;
+    padding: 3px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px lightgray;
+    cursor: pointer;
+ 
+}
+
+.ProjectGitBtn:hover{
+    color: white;
+    background-color: #a6beeb;
 }

@@ -7,7 +7,7 @@ body{
     width: 10px;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: #F8CACc;
+    background-color: #FFD6DA;
     border-radius: 10px;
   }
   ::-webkit-scrollbar-track {
@@ -18,7 +18,7 @@ body{
 
 #contact{
     height: 100vh;
-    background-color: aliceblue;
+    background-color: #c3d6F2;
     /* outline: solid #333 2px; */
 }
 .contact_section{
@@ -32,7 +32,7 @@ body{
     text-align: left;
     font-weight: 500;
     letter-spacing: 1px;
-    font-size: 7vw;
+    font-size: 10vh;
     margin: 0px;
     background: linear-gradient(to top, #F8CACc 30%, transparent 30%);
 }

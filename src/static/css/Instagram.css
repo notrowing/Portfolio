@@ -1,8 +1,8 @@
-#SilverMotion{
+#Instagram{
     height: 100%;
     
 }
-#SilverMotionPage{
+#InstagramPage{
     display: flex;
     flex-direction: column;
     
@@ -11,7 +11,7 @@
     /* background-color: antiquewhite; */
 }
 
-#SilverMotionHead{
+#InstagramHead{
     margin-top: 10vh;
     display: flex;
     flex-direction: row;
@@ -27,13 +27,13 @@
     font-weight: bold;
 }
 
-#SilverMotionDetail{
+#InstagramDetail{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    width: 80vw;
     align-items: flex-start;
+    width: 80vw;
+    
     /* outline: 1px solid lightgray; */
 }
 
@@ -43,14 +43,19 @@
 .projectLogo{
     height:6vh;
 }
-#SilverMotionImg{
-    width: 35vw;
+#InstagramImg{
+    width: 50vw;
     border-radius: 10px;
     outline: 1px solid lightgray;
     box-shadow: 0 0 15px lightgray;
 }
 
-#SilverMotionTable{
+#InstagramTable{
+    
+    /* outline: solid 1px black; */
+    
+    /* background-color: aliceblue; */
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,12 +63,12 @@
     font-size: 1.2vw;
 }
 
-#SilverMotionTable>table>tr>td:nth-child(1){
+#InstagramTable>table>tr>td:nth-child(1){
     padding-right: 2vw;
     font-weight: 600;
 }
 
-#SilverMotionTable>table>tr>td{
+#InstagramTable>table>tr>td{
     /* outline: 1px solid lightgray; */
 }
 

@@ -21,7 +21,7 @@ const SkyToSolar = () => {
                     <table>
                         <tr>
                             <td>개발기간</td>
-                            <td colSpan="2">2023.12.05~2023.12.09</td>
+                            <td colSpan="2">2024.01.17~2024.01.25</td>
                         </tr>
                         <tr>
                             <td>플랫폼</td>
@@ -72,7 +72,7 @@ const SkyToSolar = () => {
                         </tr>
                         <tr>
                             <td>프레임워크</td>
-                            <td colSpan="2">Spring Boot, React</td>
+                            <td colSpan="2"> Django, React</td>
                         </tr>
                         <tr>
                             <td>DB</td>

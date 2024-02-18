@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 80vw;
     /* outline: 1px solid lightgray; */
 }
@@ -43,19 +43,14 @@
 }
 
 #SkyToSolarImg{
-    width: 35vw;
-    height: 40vh;
+    width: 40vw;
+    height: 45vh;
     border-radius: 10px;
     outline: 1px solid lightgray;
     box-shadow: 0 0 15px lightgray;
 }
 
 #SkyToSolarTable{
-    
-    /* outline: solid 1px black; */
-    
-    /* background-color: aliceblue; */
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +78,7 @@
     padding: 3px;
     margin-top: 20px;
     box-shadow: 0 0 5px lightgray;
- 
+    cursor: pointer;
 }
 
 .ProjectGitBtn:hover{

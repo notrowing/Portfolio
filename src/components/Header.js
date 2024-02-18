@@ -53,11 +53,11 @@ const StyledHeader = styled.article`
     position: fixed;
     width: 100vw;
     top: 0;
-    height: 100px;
+    height: 10vh;
     z-index: 100;
     background-color: rgba(255, 255, 255, 0.5);
     transition: top 0.3s;
-
+    box-shadow: 0 0 20px lightgray;
     &.hide {
         top: -100px;
     }

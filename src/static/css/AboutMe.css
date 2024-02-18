@@ -4,7 +4,7 @@
     position: relative; 
     
     width:100vw;
-    outline: solid #333 2px;
+    /* outline: solid #333 2px; */
 }
 .aboutMePage{
     display: flex;
@@ -20,21 +20,26 @@
     justify-content: center;
     align-items: center;
     height: 100vh;width:100vw;
-    outline: solid #333 1px;
+    /* outline: solid #333 1px; */
 }
 .profile{
    
 }
 #profileBox{
-    background-color: #bbdcfb73;
-    padding: 20px;
+   
+    padding: 3vw;
     position: relative;
     border-radius: 20px;
+    background-color: #eee;
+    background-image: linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73),
+    linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
 }
 #profileBox>h1{
     margin: 10px 0 20px 0;
-    font-size: 3vw;
-    background: linear-gradient(to top, #F8CACc 30%, transparent 30%);
+    font-size: 4vw;
+    
     position: absolute;
     top: -6vh;
     font-weight: 500;
@@ -51,26 +56,28 @@
     margin-left: 5vw;
     width: 35vw;
     padding: 10px;
-    background-color: white;
+    
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 #profileTable>table>tr>td{
     /* border-bottom: solid burlywood 1px; */
+    
 }
 
 #profileTable>table>tr>td>span{
-    font-size: 14px;
+    font-size: 1vw;
 }
 #profileTable>table>tr>td:nth-child(1){
-    font-size: 20px;
+    font-size: 1.4vw;
     font-weight: 550;
 }
 #profileTable>table>tr>td{
     padding: 5px;
-    font-size: 16px;
+    font-size: 1.2vw;
 }
 
 .scroll-downs{
