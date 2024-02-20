@@ -102,9 +102,9 @@ const SlSlconsulting = () => {
                             <td>HeidiSQL</td>
                         </tr>
                     </table>
-                    <div>
-                        <button onClick={slslBtn} className='ProjectGitBtn'>Github</button>
-                        <button onClick={slslBtn2} className='ProjectGitBtn'>Tistory</button>
+                    <div id="gitBtnBox">
+                        <button onClick={slslBtn} className='slslGitBtn'>Github</button>
+                        <button onClick={slslBtn2} className='slslGitBtn'>Tistory</button>
                     </div>
 
                 </div>

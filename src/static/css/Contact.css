@@ -43,3 +43,10 @@ body{
     -1px  1px 0 #fff,
      1px  1px 0 #fff;
 }
+
+@media (max-width:820px){
+  .contact_section>h1{
+    font-size: 50px;
+   
+  }
+}

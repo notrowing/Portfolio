@@ -18,3 +18,14 @@
     background-color: rgba(255,255,255,0.5);
    
 }
+
+@media (max-width:820px){
+    .headTitle{
+        display: none;
+    }
+    menu{
+        padding: 0;
+        
+    }
+
+}

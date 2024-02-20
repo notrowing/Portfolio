@@ -71,7 +71,7 @@
     /* outline: 1px solid lightgray; */
 }
 
-.ProjectGitBtn{
+.blogGitBtn{
     width: 8vw;
     border: none;
     color: #333;
@@ -86,7 +86,59 @@
     margin-right: 10px;
 }
 
-.ProjectGitBtn:hover{
+.blogGitBtn:hover{
     color: white;
     background-color: #a6beeb;
+}
+
+@media (max-width:820px){
+    #BlogDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        /* outline: 1px solid lightgray; */
+    }
+    #BlogHead{
+        margin-top: 4vh;
+    }
+    #BlogImg{
+        width: 50vw;
+        height: 25vh;
+        border-radius: 10px;
+        outline: 1px solid lightgray;
+        box-shadow: 0 0 15px lightgray;
+    }
+    #BlogTable{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 30px;
+      
+    }
+    .blogGitBtn{
+        width: 100px;
+        border: none;
+        color: #333;
+        border-radius: 20px;
+        background-color: white;
+        outline: 2.5px solid #a6beeb;
+        font-size: 15px;
+        padding: 3px;
+        margin-top: 15px;
+        box-shadow: 0 0 5px lightgray;
+        cursor: pointer;
+     
+    }
+    #gitBtnBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:100%;
+    }
+    
+   
 }

@@ -37,8 +37,8 @@ const Container = styled.div`
 
 const Button = styled(FaRegArrowAltCircleUp)`
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2.5vh;
+  right: 2.5vw;
   z-index: 1000;
   outline: none;
   cursor: pointer;

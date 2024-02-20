@@ -87,9 +87,9 @@ const SkyToSolar = () => {
                         </tr>
                     </table>
 
-                    <div>
-                        <button onClick={SkyToSolarBtn} className='ProjectGitBtn'>Github</button>
-                        <button onClick={SkyToSolarBtn2} className='ProjectGitBtn'>Tistory</button>
+                    <div id = "gitBtnBox">
+                        <button onClick={SkyToSolarBtn} className='skytosolarGitBtn'>Github</button>
+                        <button onClick={SkyToSolarBtn2} className='skytosolarGitBtn'>Tistory</button>
                     </div>
                     
                 </div>

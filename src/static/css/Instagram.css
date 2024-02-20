@@ -5,7 +5,6 @@
 #InstagramPage{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     height: 100%;
     /* background-color: antiquewhite; */
@@ -22,10 +21,6 @@
     /* outline: 1px solid lightgray; */
 }
 
-.HeadTitle{
-    font-size: 1.5vw;
-    font-weight: bold;
-}
 
 #InstagramDetail{
     display: flex;
@@ -76,7 +71,7 @@
     font-size: 1vw;
 }
 
-.ProjectGitBtn{
+.instaGitBtn{
     width: 8vw;
     border: none;
     color: #333;
@@ -88,10 +83,70 @@
     margin-top: 20px;
     box-shadow: 0 0 5px lightgray;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.ProjectGitBtn:hover{
+.instaGitBtn:hover{
     color: white;
     background-color: #a6beeb;
+}
+
+
+@media (max-width:820px){
+    
+
+    .projectLogo{
+        display: none;
+    }
+
+    #InstagramDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        /* outline: 1px solid lightgray; */
+    }
+    #InstagramHead{
+        margin-top: 10vh;
+        font-size: 30px;
+    }
+    #InstagramImg{
+        width: 50vw;
+        height: 25vh;
+        border-radius: 10px;
+        outline: 1px solid lightgray;
+        box-shadow: 0 0 15px lightgray;
+    }
+    #InstagramTable{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .instaGitBtn{
+        width: 100px;
+        border: none;
+        color: #333;
+        border-radius: 20px;
+        background-color: white;
+        outline: 2.5px solid #a6beeb;
+        font-size: 15px;
+        padding: 3px;
+        margin-top: 15px;
+        box-shadow: 0 0 5px lightgray;
+        cursor: pointer;
+       
+     
+    }
+    #gitBtnBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:100%; 
+    }
+    
+ 
 }

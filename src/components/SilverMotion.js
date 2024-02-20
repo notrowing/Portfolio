@@ -70,9 +70,9 @@ const SilverMotion = () => {
                         </tr>
                     </table>
 
-                    <div>
-                        <button onClick={SilverMotionBtn} className='ProjectGitBtn'>Github</button>
-                        <button onClick={SilverMotionBtn2} className='ProjectGitBtn'>Tistory</button>
+                    <div id = "gitBtnBox">
+                        <button onClick={SilverMotionBtn} className='silverGitBtn'>Github</button>
+                        <button onClick={SilverMotionBtn2} className='silverGitBtn'>Tistory</button>
                     </div>
                 </div>
 

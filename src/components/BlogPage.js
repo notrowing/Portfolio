@@ -77,9 +77,9 @@ function BlogPageBtn2(){
                         </tr>
                     </table>
 
-                    <div>
-                        <button onClick={BlogPageBtn} className='ProjectGitBtn'>Github</button>
-                        <button onClick={BlogPageBtn2} className='ProjectGitBtn'>Tistory</button>
+                    <div id = "gitBtnBox">
+                        <button onClick={BlogPageBtn} className='blogGitBtn'>Github</button>
+                        <button onClick={BlogPageBtn2} className='blogGitBtn'>Tistory</button>
                     </div>
                 </div>
 

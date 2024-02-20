@@ -63,9 +63,9 @@ const Instagram = () => {
                         </tr>
                     </table>
 
-                   <div>
-                        <button onClick={InstagramBtn} className='ProjectGitBtn'>Github</button>
-                        <button onClick={InstagramBtn2} className='ProjectGitBtn'>Tistory</button>
+                   <div id='gitBtnBox'>
+                        <button onClick={InstagramBtn} className='instaGitBtn'>Github</button>
+                        <button onClick={InstagramBtn2} className='instaGitBtn'>Tistory</button>
                    </div>
                 </div>
 
