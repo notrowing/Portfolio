@@ -59,7 +59,7 @@ const StyledHeader = styled.article`
     transition: top 0.3s;
     box-shadow: 0 0 20px lightgray;
     &.hide {
-        top: -100px;
+        top: -10vh;
     }
 `;
 
