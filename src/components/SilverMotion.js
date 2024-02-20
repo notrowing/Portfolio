@@ -16,7 +16,7 @@ const SilverMotion = () => {
 
             <div id = "SilverMotionDetail">
                 <div className="ProjectImgBox">
-                    <img src="images/SilverMotion.gif" id='SilverMotionImg' />
+                    <img src="images/silvermotion.gif" id='SilverMotionImg' />
                 </div>
 
                 <div id = "SilverMotionTable">
