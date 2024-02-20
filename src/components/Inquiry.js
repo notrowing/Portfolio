@@ -26,7 +26,7 @@ const Inquiry = () => {
         [id]: type === 'checkbox' ? checked : value,
         }));
 
-    console.log(e.target);
+    // console.log(e.target);
     };
   
     // 폼 제출 핸들러
@@ -61,10 +61,23 @@ const Inquiry = () => {
             alert('이메일 도메인 형식을 확인해주세요.')
             return;
         }
+
+        if(InputData.inputNumber1.length<3){
+            alert("첫번째 연락처 3자리 입력해주세요");
+            return;
+        }
+        if(InputData.inputNumber2.length<4){
+            alert("두번째 연락처 4자리 입력해주세요");
+            return;
+        }
+        if(InputData.inputNumber3.length<4){
+            alert("세번째 연락처 4자리 입력해주세요");
+            return;
+        }
     
     
         // 저장된 상태 출력 (실제로 서버에 전송하거나 다른 로직으로 대체)
-        console.log('Form Data:',InputData);
+        // console.log('Form Data:',InputData);
 
         // EmailJS로 이메일 전송
         emailjs
@@ -89,7 +102,7 @@ const Inquiry = () => {
     // 이메일 직접입력
     const handlecustomEmailDomain = (e)=>{
         const { value } = e.target;
-        console.log(value);
+        // console.log(value);
         setInputData((prevData) => ({
           ...prevData,
      
@@ -97,76 +110,6 @@ const Inquiry = () => {
         }));
     };
 
-    const handleBlur = (e) => {
-        console.log(e.target.value);
-        console.log(e.target.id);
-
-        const maxLength = e.target.maxLength;
-        
-        if (e.target.id === 'inputNumber1') {
-        
-            if (!/^\d+$/.test(e.target.value)) {
-                e.target.value = '';
-                alert("숫자만 입력이 가능합니다.");
-                return;
-            }
-            if (e.target.value.length < maxLength) {
-                e.target.value = ''; 
-                alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
-                return;
-            }
-        }
-        else if (e.target.id === 'inputNumber2') {
-        
-            if (!/^\d+$/.test(e.target.value)) {
-                e.target.value = '';
-                alert("숫자만 입력이 가능합니다.");
-                return;
-            }
-            if (e.target.value.length < maxLength) {
-                e.target.value = '';
-                alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
-                return;
-            }
-        }
-        else if (e.target.id === 'inputNumber3') {
-        
-            if (!/^\d+$/.test(e.target.value)) {
-                e.target.value = '';
-                alert("숫자만 입력이 가능합니다.");
-                return;
-            }
-            if (e.target.value.length < maxLength) {
-                e.target.value = '';
-                alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
-                return;
-            }
-        }
-
-        if(e.target.id === 'emailDomain'){
-            if (!(/^[a-zA-Z.]+$/).test(e.target.value)){
-                e.target.value = ''; 
-                alert('이메일 도메인 형식을 확인해주세요.')
-                return;
-            }
-        }
-
-        if(e.target.id === 'emailId'){
-            if (!(/^[a-zA-Z0-9]+$/).test(e.target.value)){
-                e.target.value = ''; 
-                alert('이메일 아이디에는 알파벳과 숫자만 입력 가능합니다.');
-                return;
-            }
-        }
-
-        if(e.target.id === 'inputName'){
-            if (!(/^[a-zA-Z가-힣]*$/).test(e.target.value)){
-                e.target.value = '';
-                alert('이름에는 특수문자를 입력하실 수 없습니다.');
-                return;
-            }
-        }
-    };
 
   return (
     <article className="InquiryInputPages">
@@ -193,7 +136,7 @@ const Inquiry = () => {
                                     onChange={handleChange}
                                     align = "middle"
                                     title="특수문자, 숫자는 입력이 불가능합니다."
-                                    onBlur={handleBlur}
+                                    
                             />
                         </td>
                     </tr>
@@ -211,7 +154,7 @@ const Inquiry = () => {
                                     required 
                                     title="특수문자는 입력이 불가능합니다."
                                     onChange={handleChange}
-                                    onBlur={handleBlur}
+                                    
                             />
                             <span>&nbsp;@&nbsp;&nbsp;</span>
                         
@@ -229,7 +172,7 @@ const Inquiry = () => {
                                         InputData.emailDomain==='naver.com'||InputData.emailDomain==='gmail.com'||InputData.emailDomain==='hanmail.net'
                                         ||InputData.emailDomain==='korea.com'||InputData.emailDomain==='nate.com'||InputData.emailDomain==='yahoo.com'
                                     }
-                                    onBlur={handleBlur}
+                                   
                             />
                 
                             <span>&nbsp;&nbsp;</span>
@@ -268,7 +211,7 @@ const Inquiry = () => {
                                 placeholder='010' 
                                 required 
                                 onChange={handleChange}
-                                onBlur={handleBlur}
+                                title="숫자만 입력해주세요"
                             />
                             <span>&nbsp;-&nbsp;&nbsp;</span>
                             <input type='tel'  
@@ -278,7 +221,7 @@ const Inquiry = () => {
                                 placeholder='1234' 
                                 required 
                                 onChange={handleChange}
-                                onBlur={handleBlur}
+                                title="숫자만 입력해주세요"
                             />
                             <span>&nbsp;-&nbsp;&nbsp;</span>
                             <input type='tel'  
@@ -288,7 +231,7 @@ const Inquiry = () => {
                                 placeholder='5678' 
                                 required 
                                 onChange={handleChange}
-                                onBlur={handleBlur}
+                                title="숫자만 입력해주세요"
                             />
                         </td>
                     </tr>
