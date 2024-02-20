@@ -5,6 +5,10 @@ const SlSlconsulting = () => {
   function slslBtn(){
     window.open("https://github.com/yyoonjju/slsl-consulting");
   }
+
+  function slslBtn2(){
+    window.open("https://notrowing.tistory.com/49")
+  }
     return (
         <article id = "SlSlconsulting">
          
@@ -98,8 +102,11 @@ const SlSlconsulting = () => {
                             <td>HeidiSQL</td>
                         </tr>
                     </table>
+                    <div>
+                        <button onClick={slslBtn} className='ProjectGitBtn'>Github</button>
+                        <button onClick={slslBtn2} className='ProjectGitBtn'>Tistory</button>
+                    </div>
 
-                    <button onClick={slslBtn} className='ProjectGitBtn'>Github</button>
                 </div>
 
                

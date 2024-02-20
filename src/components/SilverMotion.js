@@ -5,6 +5,9 @@ const SilverMotion = () => {
     function SilverMotionBtn(){
         window.open("https://github.com/20153306Kimgunwoo/silver-car-community");
     }
+    function SilverMotionBtn2(){
+        window.open("https://notrowing.tistory.com/43");
+    }
 
     return (
         <article id = "SilverMotion">
@@ -67,7 +70,10 @@ const SilverMotion = () => {
                         </tr>
                     </table>
 
-                    <button onClick={SilverMotionBtn} className='ProjectGitBtn'>Github</button>
+                    <div>
+                        <button onClick={SilverMotionBtn} className='ProjectGitBtn'>Github</button>
+                        <button onClick={SilverMotionBtn2} className='ProjectGitBtn'>Tistory</button>
+                    </div>
                 </div>
 
                

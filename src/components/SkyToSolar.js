@@ -4,6 +4,9 @@ const SkyToSolar = () => {
     function SkyToSolarBtn(){
       window.open("https://github.com/sosomm20141212/Sky_to_Solar");
     }
+    function SkyToSolarBtn2(){
+        window.open("https://notrowing.tistory.com/47");
+      }
     return (
         <article id = "SkyToSolar">
            <section id="SkyToSolarPage">
@@ -84,7 +87,11 @@ const SkyToSolar = () => {
                         </tr>
                     </table>
 
-                    <button onClick={SkyToSolarBtn} className='ProjectGitBtn'>Github</button>
+                    <div>
+                        <button onClick={SkyToSolarBtn} className='ProjectGitBtn'>Github</button>
+                        <button onClick={SkyToSolarBtn2} className='ProjectGitBtn'>Tistory</button>
+                    </div>
+                    
                 </div>
 
                

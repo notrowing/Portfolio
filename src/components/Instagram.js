@@ -5,6 +5,10 @@ const Instagram = () => {
     function InstagramBtn(){
         window.open("https://github.com/notrowing/instagram");
     }
+    function InstagramBtn2(){
+        window.open("https://notrowing.tistory.com/16");
+    }
+
 
     return (
         <article id = "Instagram">
@@ -59,7 +63,10 @@ const Instagram = () => {
                         </tr>
                     </table>
 
-                    <button onClick={InstagramBtn} className='ProjectGitBtn'>Github</button>
+                   <div>
+                        <button onClick={InstagramBtn} className='ProjectGitBtn'>Github</button>
+                        <button onClick={InstagramBtn2} className='ProjectGitBtn'>Tistory</button>
+                   </div>
                 </div>
 
                

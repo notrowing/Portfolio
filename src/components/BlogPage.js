@@ -4,6 +4,9 @@ const BlogPage = () => {
   function BlogPageBtn(){
     window.open("https://github.com/notrowing/blogpage");
 }
+function BlogPageBtn2(){
+    window.open("https://notrowing.tistory.com/41");
+}
     return (
         <article id = "Blog">
             <section id="BlogPage">
@@ -74,7 +77,10 @@ const BlogPage = () => {
                         </tr>
                     </table>
 
-                    <button onClick={ BlogPageBtn} className='ProjectGitBtn'>Github</button>
+                    <div>
+                        <button onClick={BlogPageBtn} className='ProjectGitBtn'>Github</button>
+                        <button onClick={BlogPageBtn2} className='ProjectGitBtn'>Tistory</button>
+                    </div>
                 </div>
 
                
