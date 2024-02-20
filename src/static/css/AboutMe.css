@@ -47,11 +47,16 @@
     margin: 10px 0 20px 0;
     font-size: 3vw;
     position: absolute;
-    top: -6vh;
+    top: -4.5vh;
     /* font-weight: 500; */
     letter-spacing: 1px;
-    font-family: "Protest Guerrilla", sans-serif;
+    font-family: "Black Han Sans", sans-serif;
     color: #82AFE0;
+    text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff; 
     
 }
 

@@ -124,7 +124,7 @@ const Inquiry = () => {
                 return;
             }
             if (e.target.value.length < maxLength) {
-                e.target.value = ''; 
+                e.target.value = '';
                 alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
                 return;
             }
@@ -137,7 +137,7 @@ const Inquiry = () => {
                 return;
             }
             if (e.target.value.length < maxLength) {
-                e.target.value = ''; 
+                e.target.value = '';
                 alert("입력값이 너무 짧습니다. " + maxLength + "자 입력해주세요.");
                 return;
             }
@@ -161,7 +161,7 @@ const Inquiry = () => {
 
         if(e.target.id === 'inputName'){
             if (!(/^[a-zA-Z가-힣]*$/).test(e.target.value)){
-                e.target.value = ''; 
+                e.target.value = '';
                 alert('이름에는 특수문자를 입력하실 수 없습니다.');
                 return;
             }

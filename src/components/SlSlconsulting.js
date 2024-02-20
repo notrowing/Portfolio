@@ -16,7 +16,7 @@ const SlSlconsulting = () => {
 
             <div id = "slslDetail">
                 <div className="ProjectImgBox">
-                    <img src="images/slslImg.png" id='slslImg' />
+                    <img src="images/slsldetail.gif" id='slslImg' />
                 </div>
 
                 <div id = "slslTable">

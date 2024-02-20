@@ -41,4 +41,5 @@ const Button = styled(FaRegArrowAltCircleUp)`
   right: 20px;
   z-index: 1000;
   outline: none;
+  cursor: pointer;
 `;
