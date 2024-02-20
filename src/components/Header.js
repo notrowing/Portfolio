@@ -81,7 +81,7 @@ const MenuItem = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 500;
     text-decoration: none;
     color: #333;
