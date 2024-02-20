@@ -8,7 +8,7 @@ const SkyToSolar = () => {
         <article id = "SkyToSolar">
            <section id="SkyToSolarPage">
             <div id = "SkyToSolarHead">
-                <img src="images/SkyToSolarLogo.png" className='projectLogo'/>
+                <img src="images/skytosolarLogo.png" className='projectLogo'/>
                 <div className='HeadTitle'>| 하늘 사진을 통한 태양광 발전량 예측 모델 웹 서비스</div>
             </div>
 
