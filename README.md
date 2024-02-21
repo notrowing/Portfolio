@@ -6,14 +6,20 @@
 2. Skill : 보유기술 <br/>
 
 3. Project : 팀 프로젝트 나열<br/>
-    3-1. Pageable : 페이지 가로 스크롤<br/>
+    3-1. Instagram<br/>
+    3-2. BlogPage<br/>
+    3-3. SilverMotion<br/>
+    3-4. SkyToSolar<br/>
+    3-5. SlSlconsulting<br/>
 
 4. Channel : 티스토리, 깃헙 바로가기<br/>
 
 5. Contact : 문의하기<br/>
     5-1. Inquiry : 문의하기 form (EmailJS 사용)<br/>
 
-6. Header : 반응형 헤더
+6. Header : 반응형 헤더<br/>
+
+7. Footer<br/>
 
 💻**프로그래밍 언어**
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">

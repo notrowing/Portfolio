@@ -27,7 +27,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 20vh;
-  
 }
 
 #channelLink{
@@ -155,11 +154,11 @@
         align-items: center;
         text-align: center;
         justify-content: space-around;
-        height: 45vh;
+    
     }
     #channelLeftTitle{
         display: block;
-        font-size: 35px;
+        font-size: 5vh;
         font-family: "Black Han Sans", sans-serif;
         color: #82AFE0;
         text-shadow: 
@@ -167,6 +166,11 @@
          1px -1px 0 #fff,
         -1px  1px 0 #fff,
          1px  1px 0 #fff; 
+         height: 45vh;
+         position: absolute;
+         z-index: 10;
+         letter-spacing: 1px;
+         top:15vh;
     }
     .channelProfilesmall{
         background-color: lightgoldenrodyellow;
@@ -176,8 +180,8 @@
 
     .channelImgsmall{
         display: block;
-        width: 60vw;
-        height: 25vh;
+        width: 65vw;
+        height: 28vh;
         border-radius: 5px;
     }
     
