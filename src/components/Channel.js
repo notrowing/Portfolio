@@ -8,6 +8,10 @@ const Channel = () => {
             <section className='chnnelPage'>
                 <section className='channel_section'>
                     <h1 id='channelLeftTitle'>Channel</h1>
+                    <div className='channelProfilesmall'>
+                            <img src="images/profile2.jpg" className='channelImgsmall'/>
+                    </div>
+
                     <div className='channel_left'>
                         <div id='channelTitle'>프론트와 백엔드를 아우르는 <br/>
                                                 기술을 통해<br/>
