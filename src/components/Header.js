@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import '../static/css/Header.css';
+import styled, { css } from 'styled-components';
 
 const Header = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -22,7 +23,7 @@ const Header = () => {
 
     return (
         <article className='Header'>
-            <StyledHeader className={!visible ? 'hide' : ''}>
+            <StyledHeader className={!visible ? 'hide' : ''} visible={visible}>
                 <StyledSection>
                     <div className='headTitle'>CHO JEONG A</div>
                     <Menu className='headMenu'>
@@ -58,8 +59,13 @@ const StyledHeader = styled.article`
     background-color: rgba(255, 255, 255, 0.5);
     transition: top 0.3s;
     box-shadow: 0 0 20px lightgray;
-    &.hide {
+
+    ${(props) => !props.visible && css`
         top: -10vh;
+    `}
+
+    @media (max-width: 450px) {
+        display: none;
     }
 `;
 
