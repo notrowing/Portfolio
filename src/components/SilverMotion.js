@@ -54,7 +54,7 @@ const SilverMotion = () => {
                         </tr>
                         <tr>
                             <td>언어</td>
-                            <td>Python, Javam HTML,CSS, JavaScript</td>
+                            <td>HTML, CSS, JavaScript</td>
                         </tr>
                         <tr>
                             <td>프레임워크</td>

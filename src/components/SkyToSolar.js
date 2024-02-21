@@ -71,7 +71,7 @@ const SkyToSolar = () => {
                         </tr>
                         <tr>
                             <td>언어</td>
-                            <td colSpan="2">Python, Javam HTML,CSS, JavaScript</td>
+                            <td colSpan="2">Python, Java, HTML, CSS, JavaScript</td>
                         </tr>
                         <tr>
                             <td>프레임워크</td>

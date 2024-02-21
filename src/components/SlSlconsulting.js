@@ -67,27 +67,26 @@ const SlSlconsulting = () => {
                         <tr>
                             <td></td>
                             <td></td>
-                            <td>css <span className='smallspan'>(기여도 80%)</span></td>
+                            <td>css <span className='smallspan'>(기여도 100%)</span></td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>상세 페이지 헤더 :</td>
-                            <td>scroll을 감지하여 내릴때 숨김,</td>
+                            <td>스크롤을 감지하는 반응형으로 작성</td>
                         </tr>
                         <tr>
                             <td></td>
                             <td></td>
-                            <td>올릴때 나타나도록 작성</td>
+                            <td>css <span className='smallspan'>(기여도 100%)</span></td>
                         </tr>
                    
 
-                    
                         <tr>
                             <td>개발 환경</td>
                         </tr>
                         <tr>
                             <td>언어</td>
-                            <td colSpan="2">Python, Javam HTML,CSS, JavaScript</td>
+                            <td colSpan="2">Python, Java, HTML, CSS, JavaScript</td>
                         </tr>
                         <tr>
                             <td>프레임워크</td>
