@@ -118,9 +118,8 @@
         position: static;
         border-radius: 20px;
         background-color: #bbdcfb73;
-      
-    
     }
+    
     #profileBox>h1{
         margin: 10px 0 20px 0;
         font-size: 25px;
@@ -143,7 +142,7 @@
     }
 
     .smallProfile{
-        width: 40vw;
+        width: 35vw;
         border-radius: 5px;
         display: block;
     }
