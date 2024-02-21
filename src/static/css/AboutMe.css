@@ -145,7 +145,7 @@
     .smallProfile{
         width: 40vw;
         border-radius: 5px;
-        
+        display: block;
     }
     
     #profileTable{
@@ -159,7 +159,6 @@
     }
 
     #profileTable{
-    
       box-shadow: 0 0 10px #82afe071;
     }
     
