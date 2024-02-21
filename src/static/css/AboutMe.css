@@ -64,6 +64,10 @@
     width: 35vw;
 }
 
+.smallProfile{
+    display: none;
+}
+
 #profileTable{
     margin-left: 5vw;
     width: 35vw;
@@ -135,14 +139,16 @@
     }
     
     .profileImg{
-        border-radius: 5px;
-        /* width: 250px; */
-        width: 45vw;    
+       display: none;
+    }
 
+    .smallProfile{
+        width: 40vw;
+        border-radius: 5px;
+        
     }
     
     #profileTable{
-       
         margin: 25px auto;
         width: 300px;
         padding: 10px;

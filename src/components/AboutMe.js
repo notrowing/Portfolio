@@ -11,6 +11,7 @@ const AboutMe = () => {
                        
                         <h1>About me</h1>
                         <div className='profile'>
+                            <img src="images/profile.jpg" className='smallProfile'alt="Profile" />
                             <img src="images/profile6.jpg" className='profileImg' alt="Profile" />
                         </div>
                     </div>
