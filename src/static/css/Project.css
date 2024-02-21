@@ -194,8 +194,10 @@
   }
   .pHeaderBtn.active{
     background-color: #fff;
-    border-radius: 5px;
+   
     font-size: 2vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
   .pHeaderBtn:before {
     content: "";
