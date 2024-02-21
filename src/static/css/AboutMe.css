@@ -101,6 +101,13 @@
 }
 
 
+@media (max-height:700px){
+    #profileBox{
+        background-color: none;
+    }
+
+}
+
 @media (max-width:820px){
 
     .aboutMe_box{
