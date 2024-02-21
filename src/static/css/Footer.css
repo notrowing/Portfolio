@@ -10,3 +10,12 @@
     text-align: center; 
 }
 
+@media (max-width:820px){
+    #FooterPage{
+        font-size: 11px;
+    }
+    #FooterPage>div:nth-child(2){
+        margin-top: 10px;
+    }
+}
+
