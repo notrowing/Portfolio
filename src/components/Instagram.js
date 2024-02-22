@@ -20,7 +20,7 @@ const Instagram = () => {
 
             <div id = "InstagramDetail">
                 <div className="ProjectImgBox">
-                    <img src="images/InstagramImg.png" id='InstagramImg' />
+                    <img src="images/instagram.gif" id='InstagramImg' />
                 </div>
 
                 <div id = "InstagramTable">

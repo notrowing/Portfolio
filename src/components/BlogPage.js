@@ -17,7 +17,7 @@ function BlogPageBtn2(){
 
             <div id = "BlogDetail">
                 <div className="ProjectImgBox">
-                    <img src="images/BlogPageImg.png" id='BlogImg' />
+                    <img src="images/BlogPage.gif" id='BlogImg' />
                 </div>
 
                 <div id = "BlogTable">

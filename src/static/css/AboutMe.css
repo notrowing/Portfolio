@@ -110,6 +110,11 @@
         height: 100vh;
         width:100vw;
         /* outline: solid #333 1px; */
+        background-color: white;
+        background-image: linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73),
+        linear-gradient(45deg, #bbdcfb73 25%, transparent 25%, transparent 75%, #bbdcfb73 75%, #bbdcfb73);
+        background-size: 60px 60px;
+        background-position: 0 0, 30px 30px;
     }
 
     #profileback{
@@ -162,6 +167,7 @@
 
     #profileTable{
       box-shadow: 0 0 10px #82afe071;
+      background-color: white;
     }
     
     #profileTable>table>tr>td>span{
