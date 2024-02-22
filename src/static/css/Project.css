@@ -44,20 +44,20 @@
     margin-left: 3vw;
     cursor: pointer;
     position: relative;
-    padding-bottom: 10px;
+    padding: 0px 10px 10px 10px;
     font-weight: 500;
     color: rgb(97, 97, 97);
 }
 
 #projectHeader>ul>li{
   /* outline:  1px solid black; */
-
-  
 }
+
 #projectHeader{
   /* outline:  1px solid black; */
   position: relative;
 }
+
 #flagBox{
   position: absolute;
   top: 25px;
@@ -105,6 +105,12 @@
 .pHeaderBtn.active{
   color: black;
   font-weight: 500;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ 
+
+  
 }
 
   .pHeaderBtn:before {
@@ -176,21 +182,19 @@
       border-radius: 10px;
   }
 
-
-
-    #flagBox{
-      display: none;
-    }
+  #flagBox{
+    display: none;
+  }
     
-    .pHeaderBtn{
-      font-size: 2vw;
-      margin-left: 3vw;
-      cursor: pointer;
-      position: relative;
-      padding-bottom: 10px;
-      font-weight: 500;
-      color: rgb(97, 97, 97);
-      padding: 5px;
+  .pHeaderBtn{
+    font-size: 2vw;
+    margin-left: 3vw;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    padding: 5px;
   }
   .pHeaderBtn.active{
     background-color: #fff;
@@ -208,6 +212,7 @@
     height: 4px;
     background-color: gray;
   }
+
   .pHeaderBtn:hover{
     margin-left: 3vw;
    

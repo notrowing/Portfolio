@@ -100,7 +100,6 @@
     font-size: 1.2vw;
 }
 
-
 @media (max-width:820px){
 
     .aboutMe_box{
@@ -146,7 +145,7 @@
     }
 
     .smallProfile{
-        width: 35vw;
+        width: 25vw;
         border-radius: 5px;
         display: block;
     }

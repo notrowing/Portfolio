@@ -9,7 +9,7 @@ const Channel = () => {
                 <section className='channel_section'>
                     <h1 id='channelLeftTitle'>Channel</h1>
                     <div className='channelProfilesmall'>
-                            <img src="images/profile2.jpg" className='channelImgsmall'/>
+                        <img src="images/profile2.jpg" className='channelImgsmall'/>
                     </div>
 
                     <div className='channel_left'>

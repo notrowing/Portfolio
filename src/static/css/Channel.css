@@ -135,15 +135,16 @@
         align-items: flex-end;
         height: 100vh;
     }
+
     .channel_section{
         display: flex;
         flex-direction: column;
         /* outline: 1px solid black; */
         align-items: center;
         justify-content: flex-start;
-        margin-top: 0px;
-      
+        margin-top: 0px;  
     }
+
     .channel_right{
         display: none;
     }
@@ -154,24 +155,24 @@
         align-items: center;
         text-align: center;
         justify-content: space-around;
-    
     }
+
     #channelLeftTitle{
         display: block;
-        font-size: 5vh;
+        font-size: 5.5vh;
         font-family: "Black Han Sans", sans-serif;
         color: #82AFE0;
         text-shadow: 
         -1px -1px 0 #fff,  
-         1px -1px 0 #fff,
+        1px -1px 0 #fff,
         -1px  1px 0 #fff,
-         1px  1px 0 #fff; 
-         height: 45vh;
-         position: absolute;
-         z-index: 10;
-         letter-spacing: 1px;
-         top:15vh;
+        1px  1px 0 #fff; 
+        position: absolute;
+        z-index: 10;
+        letter-spacing: 1px;
+        top:13vh;
     }
+
     .channelProfilesmall{
         background-color: lightgoldenrodyellow;
         padding: 2vw;
@@ -184,7 +185,6 @@
         height: 28vh;
         border-radius: 5px;
     }
-    
     
     #channelTitle{
         font-size: 25px;
@@ -221,18 +221,20 @@
         box-shadow: 0 0 5px lightgray;
         margin-top: 20px;
     }
+
     .channelBtn:hover{
         background-color: lightgoldenrodyellow;
     }
+
     .channelBtn>span{
         margin-left: 10px;
         font-size: 20px;
         font-weight: bold;
     }
+
     .channel_icon{
         width: 20px;
         height: 20px;
     }
 
-    
   }
