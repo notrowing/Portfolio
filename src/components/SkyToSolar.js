@@ -31,7 +31,7 @@ const SkyToSolar = () => {
                             <td>담당역할</td><td>메인페이지</td>
                         </tr>
                         <tr> 
-                            <td></td> <td>풀페이지 스크롤기능(FullPageScroll)</td>
+                            <td></td> <td>&nbsp;- 풀페이지 스크롤기능(FullPageScroll)</td>
                         </tr>
                         <tr>
                             <td></td> <td>&nbsp;- 하늘 백그라운드 애니메이션 </td>

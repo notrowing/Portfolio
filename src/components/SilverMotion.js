@@ -51,7 +51,7 @@ const SilverMotion = () => {
                             <td>모델페이지: CSS <span className='smallspan'>(기여도 100%)</span></td>
                         </tr>
                         <tr>
-                        <td></td><td>&nbsp;- DB에 저장된 제품 정보 기재 페이지 작성</td></tr>
+                        <td></td><td>&nbsp;- DB에 저장된 제품 정보 상세 페이지 작성</td></tr>
                     
                         <tr><td>프레임워크</td><td>Spring Boot, React</td></tr>
                         <tr><td>언어</td> <td>HTML, CSS, JavaScript</td></tr>
