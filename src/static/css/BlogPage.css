@@ -43,7 +43,8 @@
 }
 
 #BlogImg{
-    width: 35vw;
+    width: 40vw;
+    height: 45vh;
     border-radius: 10px;
     outline: 1px solid lightgray;
     box-shadow: 0 0 15px lightgray;
