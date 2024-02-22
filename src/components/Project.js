@@ -3,7 +3,8 @@ import '../static/css/Project.css';
 import Instagram from './Instagram';
 import BlogPage from './BlogPage';
 import SkyToSolar from './SkyToSolar';
-import SlSlconsulting from './SlSlconsulting';
+
+import SlSlslide from './SlSlslide';
 import SilverMotion from './SilverMotion';
 const Project = () => {
 
@@ -37,7 +38,7 @@ const Project = () => {
                     {currentPage === 'blogpage' && <BlogPage/>}
                     {currentPage === 'silvermotion' && <SilverMotion/>}
                     {currentPage === 'skytosolar' && <SkyToSolar/>}
-                    {currentPage === 'slslconsulting' && <SlSlconsulting/>}
+                    {currentPage === 'slslconsulting' && <SlSlslide/>}
                 </div>
             </section>
         </article>

@@ -1,0 +1,38 @@
+#SlSlslide{
+    height: 100%;
+    
+}
+.pageSection{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.slideContent{
+  
+  
+   
+}
+
+.slideBtn{
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.prev{
+    top: 50%;
+    border: none;
+    left: 0;
+  
+}
+
+.next{
+    top: 50%;
+    right: 0;
+    border: none;
+}

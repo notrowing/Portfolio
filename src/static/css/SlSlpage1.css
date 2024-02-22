@@ -1,18 +1,16 @@
-
-
-#SlSlconsulting{
-    height: 100%;
-    
+#SlSlpage1{
+    height: 100vh;
+    outline: 1px solid black;
 }
-#slslPage{
+
+#slslPage1-Section{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    /* background-color: antiquewhite; */
 }
 
-#slslHead{
+#slslPage1-Head{
     margin-top: 10vh;
     display: flex;
     flex-direction: row;
@@ -28,7 +26,7 @@
     font-weight: bold;
 }
 
-#slslDetail{
+#slslPage1-Detail{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,7 +37,7 @@
     margin-right: 2vw;
 }
 
-#slslImg{
+#slslPage1-Img{
     width: 40vw;
     height: 45vh;
     border-radius: 10px;
@@ -47,7 +45,7 @@
     box-shadow: 0 0 15px lightgray;
 }
 
-#slslTable{
+#slslPage1-Table{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,39 +54,18 @@
     width: 30vw;
 }
 
-#slslTable>table>tr>td:nth-child(1){
+#slslPage1-Table>table>tr>td:nth-child(1){
     font-weight: 600;
  
 }
 
 
-#slslTable>table>tr>td{
+#slslPage1-Table>table>tr>td{
     /* outline: 1px solid lightgray; */
 }
 
-.slslGitBtn{
-    width: 8vw;
-    border: none;
-    color: #333;
-    border-radius: 20px;
-    background-color: white;
-    outline: 2.5px solid #a6beeb;
-    font-size: 1.2vw;
-    padding: 3px;
-    margin-top: 20px;
-    box-shadow: 0 0 5px lightgray;
-    cursor: pointer;
-    margin-right: 10px;
- 
-}
-
-.slslGitBtn:hover{
-    color: white;
-    background-color: #a6beeb;
-}
-
 @media (max-width:820px){
-    #slslDetail{
+    #slslPage1-Detail{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -96,11 +73,11 @@
         width: 80vw;
         /* outline: 1px solid lightgray; */
     }
-    #slslHead{
+    #slslPage1-Head{
         margin-top: 4vh;
     }
 
-    #slslImg{
+    #slslPage1-Img{
         width: 70vw;
         height: 25vh;
         border-radius: 10px;
@@ -108,7 +85,7 @@
         box-shadow: 0 0 15px lightgray;
     }
 
-    #slslTable{
+    #slslPage1-Table{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -118,27 +95,4 @@
         width: 70vw;
     }
 
-    .slslGitBtn{
-        width: 100px;
-        border: none;
-        color: #333;
-        border-radius: 20px;
-        background-color: white;
-        outline: 2.5px solid #a6beeb;
-        font-size: 15px;
-        padding: 3px;
-        margin-top: 15px;
-        box-shadow: 0 0 5px lightgray;
-        cursor: pointer;
-        margin-right: 0;
-    }
-
-    #gitBtnBox{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width:100%;
-    }
-    
-   
 }

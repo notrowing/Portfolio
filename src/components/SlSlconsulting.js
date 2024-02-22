@@ -1,3 +1,4 @@
+
 import '../static/css/SlSlconsulting.css'
 
 const SlSlconsulting = () => {
@@ -9,6 +10,7 @@ const SlSlconsulting = () => {
   function slslBtn2(){
     window.open("https://notrowing.tistory.com/49")
   }
+
     return (
         <article id = "SlSlconsulting">
          
@@ -30,9 +32,9 @@ const SlSlconsulting = () => {
                                 <td>개발기간</td> <td>2024.01.26 ~ 2024.02.21</td></tr>
                             <tr><td>플랫폼</td> <td>Web</td></tr>
                             <tr><td>개발인원</td> <td>6명</td></tr>
-                            <tr><td>담당역할</td></tr>
+                         
                             <tr>
-                                <td></td>
+                                <td>담당역할</td>
                                 <td>발전수익 및 설치비용 예측조회 페이지 </td>
                             </tr>
                             <tr> 
