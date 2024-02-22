@@ -47,7 +47,7 @@ const Skill = () => {
                         <h3>Tools</h3>
                         <ul className='skillList2'>
                             <li><img className='skillIcon' src='https://i.namu.wiki/i/9oRmigUE97GJmrGXu0PwIzbLTv1WeMXfllr6tsgJtarFa-YNq7o6UGlGyq5h1cCB4T1zFt8CQZWU_mJKHsCi1A.webp'/></li>
-                            <li><img className='skillIcon' src='https://i.namu.wiki/i/7Jn6zeT9ynpDkoDGjL8McwYPqEN9A_PgC5b_T6HyHrIqeG-UvfSdbBNZwiP5vFkMRMulHNqLpBE-BBURXgUz85LDTGPcNVA4SN70JkHIl4T7hBJut3GZXpD8ymrvABMD2il5O6lbwFaBWV_fKBXvfQ.svg'/></li>
+                            <li><img className='skillIcon' src='images/vscodeIcon.png'/></li>
                             <li><img className='skillIcon' src='https://upload.wikimedia.org/wikipedia/commons/3/32/HeidiSQL_logo_image.png'/></li>
                             <li><img className='skillIcon' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/PuTTY_Icon.svg/2048px-PuTTY_Icon.svg.png'/></li>
                             <li><img className='skillIcon' src='https://cdn.icon-icons.com/icons2/3027/PNG/512/eclipse_icon_188897.png'/></li>
