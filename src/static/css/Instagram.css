@@ -21,23 +21,23 @@
     /* outline: 1px solid lightgray; */
 }
 
-
 #InstagramDetail{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     width: 80vw;
-    
-    /* outline: 1px solid lightgray; */
+    outline: 1px solid lightgray;
 }
 
 .ProjectImgBox{
     margin-right: 2vw;
 }
+
 .projectLogo{
     height:6vh;
 }
+
 #InstagramImg{
     width: 40vw;
     height: 45vh;
@@ -47,16 +47,12 @@
 }
 
 #InstagramTable{
-    
-    /* outline: solid 1px black; */
-    
-    /* background-color: aliceblue; */
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items:flex-start;
     font-size: 1.2vw;
+    width: 30vw;
 }
 
 #InstagramTable>table>tr>td:nth-child(1){
@@ -123,9 +119,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         font-size: 10px;
         margin-top: 30px;
+        width: 70vw;
     }
     .instaGitBtn{
         width: 100px;

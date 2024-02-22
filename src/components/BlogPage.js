@@ -24,7 +24,7 @@ function BlogPageBtn2(){
                     <table>
                         <tr>
                             <td>개발기간</td>
-                            <td colSpan="2">2023.11.24~2023.11.28</td>
+                            <td>2023.11.24~2023.11.28</td>
                         </tr>
                         <tr>
                             <td>플랫폼</td>
@@ -36,45 +36,14 @@ function BlogPageBtn2(){
                         </tr>
                         <tr>
                             <td>담당역할</td>
-                            <td>로그인, 로그아웃</td>
-                            
-                           
+                            <td>로그인, 로그아웃, 회원가입 페이지</td>
                         </tr>
-                       
-                        <tr>
-                            <td></td>
-                            <td>게시판: 글 작성, 수정, 삭제</td>
-                            <td></td>
-                        </tr>    
-                     
-                        <tr>
-                            <td></td>
-                            <td>css <span className='smallspan'>(기여도 100%)</span></td>
-                        </tr>
-  
-                        <tr>
-                            <td>개발 환경</td>
-                        </tr>
-
-                        <tr>
-                            <td>언어</td>
-                            <td colSpan="2">Java, HTML, CSS</td>
-                        </tr>
-
-                        <tr>
-                            <td>프레임워크</td>
-                            <td colSpan="2">Spring Boot</td>
-                        </tr>
-
-                        <tr>
-                            <td>DB</td>
-                            <td colSpan="2">MariaDB</td>
-                        </tr>
-
-                        <tr>
-                            <td>IDE</td>
-                            <td>HeidiSQL</td>
-                        </tr>
+                        <tr><td></td><td>메인 게시판 페이지</td></tr>
+                        <tr><td></td><td>&nbsp;- 회원의 글과 댓글의 작성, 수정, 삭제 기능</td></tr>
+                        <tr><td>프레임워크</td><td>Spring Boot</td></tr>
+                        <tr><td>언어</td> <td>Java, HTML, CSS</td></tr>
+                        <tr><td>DB</td> <td>MariaDB</td></tr>
+                        <tr><td>IDE</td><td>HeidiSQL</td></tr>
                     </table>
 
                     <div id = "gitBtnBox">

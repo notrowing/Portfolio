@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 80vw;
-    /* outline: 1px solid lightgray; */
+    outline: 1px solid lightgray;
 }
 
 .ProjectImgBox{
@@ -54,15 +54,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items:flex-start;
     font-size: 1.2vw;
-   
+    width: 30vw;
 }
 
 #slslTable>table>tr>td:nth-child(1){
-    padding-right: 2vw;
     font-weight: 600;
+ 
 }
+
 
 #slslTable>table>tr>td{
     /* outline: 1px solid lightgray; */
@@ -101,6 +102,7 @@
     #slslHead{
         margin-top: 4vh;
     }
+
     #slslImg{
         width: 70vw;
         height: 25vh;
@@ -108,15 +110,17 @@
         outline: 1px solid lightgray;
         box-shadow: 0 0 15px lightgray;
     }
+
     #slslTable{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         font-size: 10px;
         margin-top: 30px;
-      
+        width: 70vw;
     }
+
     .slslGitBtn{
         width: 100px;
         border: none;
@@ -130,8 +134,8 @@
         box-shadow: 0 0 5px lightgray;
         cursor: pointer;
         margin-right: 0;
-     
     }
+
     #gitBtnBox{
         display: flex;
         flex-direction: row;

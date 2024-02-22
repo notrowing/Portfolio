@@ -49,10 +49,6 @@ const Instagram = () => {
                             <td></td>
                             <td>사용자 프로필 페이지</td>
                         </tr>
-                    
-                        <tr>
-                            <td>개발 환경</td>
-                        </tr>
                         <tr>
                             <td>언어</td>
                             <td>HTML, CSS, JavaScript</td>

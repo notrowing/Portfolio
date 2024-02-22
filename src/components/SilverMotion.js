@@ -40,34 +40,23 @@ const SilverMotion = () => {
                             <td>담당역할</td>
                             <td>지역별 보조금 정보 크롤링</td>
                         </tr>
+                        <tr><td></td><td>&nbsp;- 파이썬 사용</td></tr>
                         <tr>
                             <td></td>
-                            <td>메인페이지 : 차량 검색</td>
+                            <td>메인페이지 : CSS <span className='smallspan'>(기여도 100%)</span></td>
                         </tr>
+                        <tr><td></td><td>&nbsp;- 회사, 차량유형, 모델명 옵션 검색</td></tr>
                         <tr>
                             <td></td>
-                            <td>모델페이지: 차량 제원, 차량구매링크, css</td>
+                            <td>모델페이지: CSS <span className='smallspan'>(기여도 100%)</span></td>
                         </tr>
+                        <tr>
+                        <td></td><td>&nbsp;- DB에 저장된 제품 정보 기재 페이지 작성</td></tr>
                     
-                        <tr>
-                            <td>개발 환경</td>
-                        </tr>
-                        <tr>
-                            <td>언어</td>
-                            <td>HTML, CSS, JavaScript</td>
-                        </tr>
-                        <tr>
-                            <td>프레임워크</td>
-                            <td>Spring Boot, React</td>
-                        </tr>
-                        <tr>
-                            <td>DB</td>
-                            <td>MariaDB</td>
-                        </tr>
-                        <tr>
-                            <td>IDE</td>
-                            <td>HeidiSQL</td>
-                        </tr>
+                        <tr><td>프레임워크</td><td>Spring Boot, React</td></tr>
+                        <tr><td>언어</td> <td>HTML, CSS, JavaScript</td></tr>
+                        <tr><td>DB</td> <td>MariaDB</td></tr>
+                        <tr><td>IDE</td> <td>HeidiSQL</td> </tr>
                     </table>
 
                     <div id = "gitBtnBox">

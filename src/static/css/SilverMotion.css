@@ -34,7 +34,7 @@
     
     width: 80vw;
     align-items: flex-start;
-    /* outline: 1px solid lightgray; */
+    outline: 1px solid lightgray;
 }
 
 .ProjectImgBox{
@@ -55,12 +55,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items:flex-start;
     font-size: 1.2vw;
+    width: 30vw;
 }
 
 #SilverMotionTable>table>tr>td:nth-child(1){
-    padding-right: 2vw;
+    
     font-weight: 600;
 }
 
@@ -119,9 +120,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         font-size: 10px;
         margin-top: 30px;
+        width: 70vw;
       
     }
     .silverGitBtn{
@@ -145,6 +147,11 @@
         justify-content: space-around;
         width:100%;
     }
+
+    .ProjectImgBox{
+        margin-right: 0;
+    }
+    
     
    
 }
