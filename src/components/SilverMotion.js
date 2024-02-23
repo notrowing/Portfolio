@@ -14,7 +14,7 @@ const SilverMotion = () => {
           <section id="SilverMotionPage">
             <div id = "SilverMotionHead">
                 <img src="images/SilverMotionLogo.png" className='projectLogo'/>
-                <div className='HeadTitle'>| 노약자 대상 전동차 커뮤니티 사이트</div>
+                <div className='HeadTitle'>| 어르신 대상 전동차 커뮤니티 사이트</div>
             </div>
 
             <div id = "SilverMotionDetail">

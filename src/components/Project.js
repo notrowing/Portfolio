@@ -6,6 +6,7 @@ import SkyToSolar from './SkyToSolar';
 
 import SlSlslide from './SlSlslide';
 import SilverMotion from './SilverMotion';
+import SlSlconsulting from './SlSlconsulting';
 const Project = () => {
 
     const [currentPage, setCurrentPage] = useState('instagram');
@@ -38,7 +39,10 @@ const Project = () => {
                     {currentPage === 'blogpage' && <BlogPage/>}
                     {currentPage === 'silvermotion' && <SilverMotion/>}
                     {currentPage === 'skytosolar' && <SkyToSolar/>}
-                    {currentPage === 'slslconsulting' && <SlSlslide/>}
+                    
+                    {currentPage === 'slslconsulting' && <SlSlconsulting/>}
+                    {/* {currentPage === 'slslconsulting' && <SlSlslide/>} */}
+        
                 </div>
             </section>
         </article>

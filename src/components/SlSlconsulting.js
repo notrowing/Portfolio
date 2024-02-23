@@ -35,6 +35,19 @@ const SlSlconsulting = () => {
                          
                             <tr>
                                 <td>담당역할</td>
+                                <td>헤더 구성</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>&nbsp;- 메인 헤더 (햄버거 메뉴)</td> 
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>&nbsp;- 상세페이지 기본헤더 </td>
+                            </tr>
+                           
+                            <tr>
+                                <td></td>
                                 <td>발전수익 및 설치비용 예측조회 페이지 </td>
                             </tr>
                             <tr> 
